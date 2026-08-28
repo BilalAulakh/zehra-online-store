@@ -136,7 +136,7 @@ export default function HomePage() {
               </>
             )}
 
-            <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-10 lg:px-16 w-full pt-16 pb-8 sm:py-20">
+            <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-16 md:px-24 lg:px-28 w-full pt-16 pb-8 sm:py-20">
               <div className="max-w-lg space-y-3 sm:space-y-5 text-left animate-fade-in">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-[#C5A880]/60 bg-stone-900/60 backdrop-blur-md text-[9px] sm:text-[10px] font-bold text-[#C5A880] uppercase tracking-[0.25em] shadow-xs">
                   <Sparkles className="w-3 h-3 text-[#C5A880]" />
@@ -486,7 +486,7 @@ export default function HomePage() {
           playsInline 
           className="absolute inset-0 w-full h-full object-cover opacity-45 pointer-events-none"
         >
-          <source src="/campaign-video.mp4" type="video/mp4" />
+          <source src="https://satlkkoaqocikfwkmmdu.supabase.co/storage/v1/object/sign/videos/WhatsApp%20Video%202026-08-28%20at%202.20.10%20PM.mp4?token=eyJraWQiOiJiZjgzYTIwNC1lNWZmLTRiMDItOGJkZS04YTM5ZmU0MTgyZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvV2hhdHNBcHAgVmlkZW8gMjAyNi0wOC0yOCBhdCAyLjIwLjEwIFBNLm1wNCIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODc5MTQ2OTEsImV4cCI6MTgxOTQ1MDY5MX0.JxGtYX_QmoLkGpcGXpL81YKmEj8d9bPcrSPwPzouttY" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/50 to-stone-950/80" />
 
@@ -519,7 +519,7 @@ export default function HomePage() {
               </button>
               <video
                 className="w-full h-full object-contain"
-                src="/campaign-video.mp4"
+                src="https://satlkkoaqocikfwkmmdu.supabase.co/storage/v1/object/sign/videos/WhatsApp%20Video%202026-08-28%20at%202.20.10%20PM.mp4?token=eyJraWQiOiJiZjgzYTIwNC1lNWZmLTRiMDItOGJkZS04YTM5ZmU0MTgyZjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvV2hhdHNBcHAgVmlkZW8gMjAyNi0wOC0yOCBhdCAyLjIwLjEwIFBNLm1wNCIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODc5MTQ2OTEsImV4cCI6MTgxOTQ1MDY5MX0.JxGtYX_QmoLkGpcGXpL81YKmEj8d9bPcrSPwPzouttY"
                 controls
                 autoPlay
                 playsInline
