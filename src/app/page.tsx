@@ -477,19 +477,31 @@ export default function HomePage() {
       )}
 
       {/* 6. CINEMATIC CAMPAIGN BANNER */}
-      <section className="relative min-h-[380px] sm:min-h-[440px] flex items-center justify-center overflow-hidden rounded-2xl sm:rounded-3xl max-w-7xl mx-auto border border-stone-200/80 shadow-lg bg-gradient-to-r from-stone-900 via-stone-950 to-stone-900">
+      <section className="relative min-h-[380px] sm:min-h-[460px] flex items-center justify-center overflow-hidden rounded-2xl sm:rounded-3xl max-w-7xl mx-auto border border-stone-200/80 shadow-xl bg-stone-950">
+        {/* Background Ambient Video */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          className="absolute inset-0 w-full h-full object-cover opacity-45 pointer-events-none"
+        >
+          <source src="/campaign-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/50 to-stone-950/80" />
+
         <div className="relative z-10 text-center space-y-4 max-w-xl px-4 animate-fade-in">
           <button 
             onClick={() => setVideoModalOpen(true)}
-            className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-[#C5A880] text-white hover:bg-[#6B1D2F] flex items-center justify-center mx-auto shadow-2xl hover:scale-105 transition-all duration-300"
+            className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-[#C5A880] text-white hover:bg-[#6B1D2F] flex items-center justify-center mx-auto shadow-2xl hover:scale-110 transition-all duration-300 ring-4 ring-white/10"
             title="Play Campaign Film"
           >
             <Play className="w-6 h-6 sm:w-8 sm:h-8 fill-current ml-1" />
           </button>
           
-          <div className="space-y-1.5">
-            <span className="text-[9.5px] font-bold text-amber-200 uppercase tracking-[0.35em]">CAMPAIGN FILM ’26</span>
-            <h2 className="text-2xl sm:text-4xl font-bold text-white">The Art of Handcrafting</h2>
+          <div className="space-y-2">
+            <span className="text-[9.5px] sm:text-xs font-bold text-amber-200 uppercase tracking-[0.35em]">CAMPAIGN FILM ’26</span>
+            <h2 className="text-2xl sm:text-4xl font-bold text-white tracking-tight">Not overdressed, just perfectly felt✨</h2>
             <p className="text-xs sm:text-sm text-stone-300 max-w-md mx-auto leading-relaxed font-normal">
               Watch our master artisans bring traditional embroidery and bespoke couture to life.
             </p>
@@ -497,20 +509,20 @@ export default function HomePage() {
         </div>
 
         {videoModalOpen && (
-          <div className="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-md flex items-center justify-center p-4">
-            <div className="relative w-full max-w-3xl aspect-video rounded-2xl overflow-hidden border border-stone-700 shadow-2xl bg-black">
+          <div className="fixed inset-0 z-50 bg-stone-950/90 backdrop-blur-md flex items-center justify-center p-4">
+            <div className="relative w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-stone-700 shadow-2xl bg-black flex items-center justify-center">
               <button 
                 onClick={() => setVideoModalOpen(false)} 
-                className="absolute top-3 right-3 text-white hover:text-[#C5A880] font-bold z-20 text-xs bg-black/70 px-3 py-1 rounded-full border border-white/20"
+                className="absolute top-3 right-3 text-white hover:text-[#C5A880] font-bold z-20 text-xs bg-black/80 px-3 py-1.5 rounded-full border border-white/20 hover:bg-black transition-colors"
               >
                 ✕ Close
               </button>
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-                title="Zehra Studio Campaign"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+              <video
+                className="w-full h-full object-contain"
+                src="/campaign-video.mp4"
+                controls
+                autoPlay
+                playsInline
               />
             </div>
           </div>
