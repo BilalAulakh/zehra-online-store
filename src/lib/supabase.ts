@@ -176,23 +176,20 @@ export async function getProducts(
     return memoryProductsCache;
   }
 
-  // 2. Hydrate from localStorage cache if available
+  // 2. Hydrate from localStorage cache if available (v4)
   if (typeof window !== 'undefined') {
     try {
-      const cached = localStorage.getItem('zehra_live_supabase_v2');
+      // Clear legacy stale cache keys
+      localStorage.removeItem('zehra_live_supabase_v2');
+      localStorage.removeItem('zehra_live_supabase_products');
+      localStorage.removeItem('zehra_custom_products');
+
+      const cached = localStorage.getItem('zehra_live_supabase_v4');
       if (cached) {
         const parsed = JSON.parse(cached);
         if (Array.isArray(parsed) && parsed.length > 0) {
           memoryProductsCache = parsed;
           if (onPartialLoad) onPartialLoad(parsed);
-          if (categorySlug && categorySlug !== 'all') {
-            const term = categorySlug.toLowerCase().replace(/-/g, ' ');
-            return parsed.filter(p => 
-              p.category?.toLowerCase().includes(term) || 
-              p.category?.toLowerCase().replace(/\s+/g, '-').includes(categorySlug.toLowerCase())
-            );
-          }
-          return parsed;
         }
       }
     } catch (e) {
@@ -217,7 +214,7 @@ export async function getProducts(
 
       if (typeof window !== 'undefined') {
         try {
-          localStorage.setItem('zehra_live_supabase_v2', JSON.stringify(fetchedLiveList));
+          localStorage.setItem('zehra_live_supabase_v4', JSON.stringify(fetchedLiveList));
         } catch (e) {
           console.warn('Storage quota notice:', e);
         }

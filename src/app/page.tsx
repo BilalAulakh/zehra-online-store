@@ -152,8 +152,8 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <p className="text-xs sm:text-sm text-stone-200 font-normal max-w-md leading-relaxed line-clamp-2 sm:line-clamp-3">
-                  {currentHeroProduct.description || `${currentHeroProduct.fabric} - Handcrafted luxury design.`}
+                <p className="text-xs sm:text-sm text-stone-200 font-normal max-w-md leading-relaxed line-clamp-1">
+                  {currentHeroProduct.fabric ? `${currentHeroProduct.fabric} — Handcrafted Luxury Formal` : 'Bespoke Handcrafted Couture Collection'}
                 </p>
 
                 <div className="flex items-center gap-2.5 sm:gap-4 pt-1 sm:pt-2">
