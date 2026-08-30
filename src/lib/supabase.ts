@@ -83,8 +83,10 @@ export interface Order {
   notes?: string;
 }
 
-// Mock array kept strictly empty so only actual products added by user/database appear
-export const MOCK_PRODUCTS: Product[] = [];
+import STATIC_PRODUCTS from './zehra_72_products.json';
+
+// Default static fallback products matching local image files
+export const MOCK_PRODUCTS: Product[] = STATIC_PRODUCTS as Product[];
 
 export const MOCK_CATEGORIES: Category[] = [
   { 
@@ -138,7 +140,7 @@ let inMemoryOrders: Order[] = [];
 // Helper to get stored products (only real user created products)
 export function getStoredProducts(): Product[] {
   if (typeof window === 'undefined') {
-    return memoryProductsCache || [];
+    return memoryProductsCache || MOCK_PRODUCTS;
   }
   try {
     const custom = localStorage.getItem('zehra_custom_products');
@@ -146,22 +148,23 @@ export function getStoredProducts(): Product[] {
     const deletedIds: string[] = deleted ? JSON.parse(deleted) : [];
     const customList: Product[] = custom ? JSON.parse(custom) : [];
     
-    return customList.filter(p => !deletedIds.includes(p.id) && !deletedIds.includes(p.slug));
+    const combined = [...customList, ...MOCK_PRODUCTS];
+    return combined.filter(p => !deletedIds.includes(p.id) && !deletedIds.includes(p.slug));
   } catch {
-    return [];
+    return MOCK_PRODUCTS;
   }
 }
 
 // -----------------------------------------------------------------------------
-// PRODUCTS API (GUARANTEED ALL 72+ LIVE PRODUCTS FETCHING + FAST STREAMING)
+// PRODUCTS API (MATCHED CANBEERA PRODUCTS WITH LOCAL IMAGES)
 // -----------------------------------------------------------------------------
 
 export async function getProducts(
   categorySlug?: string,
   onPartialLoad?: (products: Product[]) => void
 ): Promise<Product[]> {
-  // 1. If memory cache already has full 70+ live items, serve instantly
-  if (memoryProductsCache && memoryProductsCache.length >= 70) {
+  // 1. If memory cache already exists, serve instantly
+  if (memoryProductsCache && memoryProductsCache.length > 0) {
     if (onPartialLoad) onPartialLoad(memoryProductsCache);
     if (categorySlug && categorySlug !== 'all') {
       const term = categorySlug.toLowerCase().replace(/-/g, ' ');
@@ -173,13 +176,13 @@ export async function getProducts(
     return memoryProductsCache;
   }
 
-  // 2. If valid localStorage cache exists, hydrate UI first for 0ms initial render, then refresh from live DB
+  // 2. Hydrate from localStorage cache if available
   if (typeof window !== 'undefined') {
     try {
       const cached = localStorage.getItem('zehra_live_supabase_v2');
       if (cached) {
         const parsed = JSON.parse(cached);
-        if (Array.isArray(parsed) && parsed.length >= 70) {
+        if (Array.isArray(parsed) && parsed.length > 0) {
           memoryProductsCache = parsed;
           if (onPartialLoad) onPartialLoad(parsed);
           if (categorySlug && categorySlug !== 'all') {
@@ -190,9 +193,6 @@ export async function getProducts(
             );
           }
           return parsed;
-        } else if (Array.isArray(parsed) && parsed.length > 0) {
-          // Stale cache: provide initial render preview but DO NOT return early so live 72 items get fetched
-          if (onPartialLoad) onPartialLoad(parsed);
         }
       }
     } catch (e) {
@@ -200,44 +200,24 @@ export async function getProducts(
     }
   }
 
-  // 3. Fetch all live products from Supabase in safe batches of 15 (retrieving all 72 items)
+  // 3. Fetch all live products from Supabase
   try {
-    const limit = 15;
-    let offset = 0;
-    let hasMore = true;
-    const fetchedLiveList: Product[] = [];
+    const { data, error } = await supabase
+      .from('products')
+      .select('*')
+      .order('created_at', { ascending: false });
 
-    while (hasMore) {
-      const { data, error } = await supabase
-        .from('products')
-        .select('*')
-        .order('created_at', { ascending: false })
-        .range(offset, offset + limit - 1);
-
-      if (!error && data && Array.isArray(data) && data.length > 0) {
-        fetchedLiveList.push(...(data as Product[]));
-        // Progressive UI streaming
-        if (onPartialLoad) {
-          onPartialLoad([...fetchedLiveList]);
-        }
-        if (data.length < limit || offset >= 300) {
-          hasMore = false;
-        } else {
-          offset += limit;
-        }
-      } else {
-        hasMore = false;
-      }
-    }
-
-    if (fetchedLiveList.length > 0) {
+    if (!error && data && Array.isArray(data) && data.length > 0) {
+      const fetchedLiveList = data as Product[];
       memoryProductsCache = fetchedLiveList;
+
+      if (onPartialLoad) {
+        onPartialLoad(fetchedLiveList);
+      }
 
       if (typeof window !== 'undefined') {
         try {
-          // Clear any old key and save fresh live catalog
-          localStorage.removeItem('zehra_live_supabase_products');
-          localStorage.setItem('zehra_live_supabase_v2', JSON.stringify(fetchedLiveList.slice(0, 35)));
+          localStorage.setItem('zehra_live_supabase_v2', JSON.stringify(fetchedLiveList));
         } catch (e) {
           console.warn('Storage quota notice:', e);
         }
@@ -256,7 +236,7 @@ export async function getProducts(
     console.warn('Supabase getProducts notice:', err);
   }
 
-  // 4. Fallback
+  // 4. Fallback to static matched products
   const localList = memoryProductsCache || getStoredProducts();
   if (localList && localList.length > 0) {
     if (onPartialLoad) onPartialLoad(localList);
@@ -270,7 +250,7 @@ export async function getProducts(
     return localList;
   }
 
-  return [];
+  return MOCK_PRODUCTS;
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | null> {
