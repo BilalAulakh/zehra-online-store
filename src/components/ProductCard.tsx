@@ -61,7 +61,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
           <Link href={`/product/${product.slug}`} className="block w-full h-full relative z-1">
             {(() => {
-              const currentSrc = (isHovered && product.images?.[1]) ? product.images[1] : (product.images?.[0] || '');
+              const currentSrc = (isHovered && product.images?.[1]) ? product.images[1] : (product.images?.[0] || '/images/a1.webp');
               const isBase64 = currentSrc.startsWith('data:');
               return (
                 <Image
@@ -71,10 +71,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                   sizes="(max-width: 768px) 50vw, 33vw"
                   unoptimized={isBase64}
                   loading="lazy"
-                  onLoad={() => setImageLoaded(true)}
-                  className={`object-cover object-top group-hover:scale-105 transition-all duration-500 ease-out ${
-                    imageLoaded ? 'opacity-100' : 'opacity-0'
-                  }`}
+                  className="object-cover object-top group-hover:scale-105 transition-all duration-500 ease-out"
                 />
               );
             })()}

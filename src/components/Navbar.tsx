@@ -15,7 +15,6 @@ export const Navbar: React.FC = () => {
   const router = useRouter();
   const pathname = usePathname();
   const { cartCount, wishlistCount, setIsCartOpen } = useCart();
-  const [showTicker, setShowTicker] = useState(true);
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [readyToWearDropdownOpen, setReadyToWearDropdownOpen] = useState(false);
@@ -86,36 +85,6 @@ export const Navbar: React.FC = () => {
     }, 1200);
   };
 
-  // Auto sliding ticker message index
-  const [tickerIndex, setTickerIndex] = useState(0);
-  const tickerMessages = [
-    '👑 EID LUXURY FESTIVE EDIT ’26 — FLAT 50% OFF',
-    '🚚 COMPLIMENTARY EXPRESS SHIPPING ACROSS PAKISTAN',
-    '✨ BESPOKE TAILORING & CUSTOM MEASUREMENTS AVAILABLE'
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTickerIndex(prev => (prev + 1) % tickerMessages.length);
-    }, 4000);
-    return () => clearInterval(interval);
-  }, []);
-
-  // Live Countdown Timer (04 DAYS 12 HRS 45 MINS 22 SECS)
-  const [timeLeft, setTimeLeft] = useState({ days: 4, hours: 12, minutes: 45, seconds: 22 });
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev.seconds > 0) return { ...prev, seconds: prev.seconds - 1 };
-        if (prev.minutes > 0) return { ...prev, minutes: 59, seconds: 59 };
-        if (prev.hours > 0) return { ...prev, hours: prev.hours - 1, minutes: 59, seconds: 59 };
-        return prev;
-      });
-    }, 1000);
-    return () => clearInterval(timer);
-  }, []);
-
   // Scroll detection for sticky header
   useEffect(() => {
     const handleScroll = () => {
@@ -132,55 +101,6 @@ export const Navbar: React.FC = () => {
 
   return (
     <>
-      {/* 1. Header Announcement Bar (Sleek 34px Height, Warm Champagne #F8F4ED) */}
-      {showTicker && (
-        <div className="h-[34px] bg-[#F8F4ED] text-[#785E2F] px-3 sm:px-4 text-[10.5px] sm:text-xs font-medium flex items-center justify-between border-b border-[#E8DFC8] relative z-50 overflow-hidden">
-          <div className="hidden lg:flex items-center gap-1.5 text-[10px] sm:text-[11px] font-bold text-[#6B1D2F] tracking-wider whitespace-nowrap">
-            <Truck className="w-3.5 h-3.5 text-[#C5A880] flex-shrink-0" />
-            <span>FREE SHIPPING ACROSS PAKISTAN</span>
-          </div>
-
-          {/* Auto Sliding Ticker Message */}
-          <div className="flex-1 text-center font-bold tracking-wide flex items-center justify-center gap-2 sm:gap-3 overflow-hidden px-1">
-            <span className="text-[#6B1D2F] transition-all duration-500 animate-fade-in text-[10px] sm:text-xs truncate">
-              {tickerMessages[tickerIndex]}
-            </span>
-            <div className="hidden sm:flex items-center gap-1 font-mono text-[9.5px] font-bold text-[#785E2F] flex-shrink-0">
-              <span className="bg-white border border-[#C5A880]/40 px-1 py-0.2 rounded shadow-2xs">{String(timeLeft.days).padStart(2, '0')}D</span>
-              <span className="bg-white border border-[#C5A880]/40 px-1 py-0.2 rounded shadow-2xs">{String(timeLeft.hours).padStart(2, '0')}H</span>
-              <span className="bg-white border border-[#C5A880]/40 px-1 py-0.2 rounded shadow-2xs">{String(timeLeft.minutes).padStart(2, '0')}M</span>
-              <span className="bg-white border border-[#C5A880]/40 px-1 py-0.2 rounded shadow-2xs">{String(timeLeft.seconds).padStart(2, '0')}S</span>
-            </div>
-          </div>
-
-          <div className="hidden lg:flex items-center gap-2 text-[11px] font-medium text-stone-700 whitespace-nowrap">
-            <a 
-              href="https://wa.me/923094329812" 
-              target="_blank" 
-              rel="noreferrer" 
-              className="flex items-center gap-1 font-bold text-[#6B1D2F] hover:text-[#C5A880] transition-colors"
-            >
-              <Phone className="w-3 h-3 text-[#C5A880]" />
-              <span>WHATSAPP: 0309 43 29 812</span>
-            </a>
-            <button 
-              onClick={() => setShowTicker(false)}
-              className="p-1 hover:text-[#6B1D2F] transition-colors ml-2"
-              title="Close announcement"
-            >
-              <X className="w-3.5 h-3.5 text-stone-400 hover:text-stone-700" />
-            </button>
-          </div>
-
-          <button 
-            onClick={() => setShowTicker(false)}
-            className="lg:hidden p-1 hover:text-[#6B1D2F] transition-colors flex-shrink-0"
-            title="Close announcement"
-          >
-            <X className="w-3.5 h-3.5 text-stone-400" />
-          </button>
-        </div>
-      )}
 
       {/* 2. Main Luxury Sticky Navbar (Pristine White Background) */}
       <header 

@@ -687,40 +687,30 @@ export async function seedProductsToSupabase(
 export async function getCategories(): Promise<Category[]> {
   const prods = await getProducts();
   
-  // Extract all unique category names from real products
-  const productCatNames = Array.from(
-    new Set(prods.map(p => p.category?.trim()).filter(Boolean) as string[])
-  );
+  // Extract all unique categories present in products
+  const categoryMap = new Map<string, Product[]>();
+  
+  prods.forEach(p => {
+    const catName = p.category?.trim() || 'Luxury Pret';
+    if (!categoryMap.has(catName)) {
+      categoryMap.set(catName, []);
+    }
+    categoryMap.get(catName)!.push(p);
+  });
 
-  // Standard predefined base list
-  const baseCategories = [
-    'Luxury Pret',
-    'Ready To Wear',
-    'Raw Silk & Chiffon',
-    'Velvet Festive',
-    'Bridal & Couture',
-    'Top Sale & Clearance'
-  ];
-
-  // Merge unique names
-  const allNames = Array.from(new Set([...baseCategories, ...productCatNames]));
-
-  return allNames.map((name, idx) => {
+  const list: Category[] = [];
+  let idx = 1;
+  for (const [name, catProds] of categoryMap.entries()) {
     const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    const matchingProds = prods.filter(p => {
-      const pCat = (p.category || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      const cCat = name.toLowerCase().replace(/[^a-z0-9]/g, '');
-      return pCat === cCat || pCat.includes(cCat) || cCat.includes(pCat);
-    });
-    
-    const firstProductWithImage = matchingProds.find(p => p.images && p.images.length > 0 && p.images[0]);
-    
-    return {
-      id: String(idx + 1),
+    const firstImg = catProds.find(p => p.images && p.images.length > 0 && p.images[0])?.images[0] || '/images/a1.webp';
+    list.push({
+      id: String(idx++),
       name,
       slug,
-      image: firstProductWithImage?.images?.[0] || '',
-      item_count: matchingProds.length
-    };
-  });
+      image: firstImg,
+      item_count: catProds.length
+    });
+  }
+
+  return list;
 }
