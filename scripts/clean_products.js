@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const jsonPath = path.join(__dirname, '..', 'src', 'lib', 'zehra_72_products.json');
+const jsonPath = path.join(__dirname, '..', 'src', 'lib', 'products.json');
 const products = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
 
 function getCleanFabric(title, desc, rawFabric) {
@@ -50,4 +50,4 @@ const cleanedProducts = products.map((p, index) => {
 });
 
 fs.writeFileSync(jsonPath, JSON.stringify(cleanedProducts, null, 2));
-console.log('✅ Cleaned all 26 products in zehra_72_products.json!');
+console.log('✅ Cleaned all 26 products in products.json!');

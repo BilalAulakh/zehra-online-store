@@ -43,7 +43,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 async function syncDatabase() {
   console.log('🔄 Syncing Supabase with 26 matched Canbeera products (a-z images)...');
   
-  const productsPath = path.join(__dirname, '..', 'src', 'lib', 'zehra_72_products.json');
+  const productsPath = path.join(__dirname, '..', 'src', 'lib', 'products.json');
   const products = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
 
   console.log(`Loaded ${products.length} products to push.`);

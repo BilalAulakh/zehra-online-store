@@ -83,7 +83,7 @@ export interface Order {
   notes?: string;
 }
 
-import STATIC_PRODUCTS from './zehra_72_products.json';
+import STATIC_PRODUCTS from './products.json';
 
 // Default static fallback products matching local image files
 export const MOCK_PRODUCTS: Product[] = STATIC_PRODUCTS as Product[];
