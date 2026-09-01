@@ -122,8 +122,15 @@ export const Navbar: React.FC = () => {
 
           {/* Left Brand Logo */}
           <Link href="/" className="flex items-center gap-2 sm:gap-2.5 group flex-shrink-0">
-            <div className="w-8 h-8 sm:w-9 sm:h-9 xl:w-10 xl:h-10 rounded-full bg-[#F8F4ED] border border-[#C5A880]/60 text-[#6B1D2F] flex items-center justify-center font-bold text-xs sm:text-sm xl:text-lg tracking-tighter shadow-2xs group-hover:bg-[#6B1D2F] group-hover:text-white transition-all">
-              ZS
+            <div className="w-8 h-8 sm:w-9 sm:h-9 xl:w-10 xl:h-10 rounded-full overflow-hidden border border-[#C5A880]/60 shadow-2xs group-hover:border-[#6B1D2F] transition-all flex-shrink-0 bg-[#FAF7F2]">
+              <Image 
+                src="/logo.png" 
+                alt="ZEHRA STUDIO" 
+                width={40} 
+                height={40} 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                priority
+              />
             </div>
             <div className="flex flex-col whitespace-nowrap">
               <span className="font-bold text-base sm:text-lg xl:text-xl tracking-[0.12em] text-[#18181B] group-hover:text-[#6B1D2F] transition-colors leading-none">
@@ -299,8 +306,14 @@ export const Navbar: React.FC = () => {
 
             {/* Header */}
             <div className="text-center space-y-2 pt-2">
-              <div className="w-13 h-13 rounded-2xl bg-[#6B1D2F] text-white flex items-center justify-center mx-auto shadow-lg shadow-[#6B1D2F]/20">
-                <Lock className="w-6 h-6" />
+              <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-[#C5A880]/60 mx-auto shadow-md bg-[#FAF7F2]">
+                <Image 
+                  src="/logo.png" 
+                  alt="ZEHRA STUDIO" 
+                  width={56} 
+                  height={56} 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="text-[10px] font-black text-[#C5A880] uppercase tracking-[0.3em] block">
                 ADMIN ACCESS REQUIRED

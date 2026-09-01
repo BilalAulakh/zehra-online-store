@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Phone, Mail, MapPin, ShieldCheck, Truck, RefreshCw, Globe, Share2 } from 'lucide-react';
 
@@ -54,10 +55,24 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8 sm:gap-10 mb-12">
         {/* Brand Info */}
         <div className="space-y-4">
-          <Link href="/" className="inline-block">
-            <span className="font-bold text-2xl tracking-[0.15em] text-[#18181B] hover:text-[#6B1D2F] transition-colors">
-              ZEHRA STUDIO
-            </span>
+          <Link href="/" className="inline-flex items-center gap-3 group">
+            <div className="w-12 h-12 rounded-full overflow-hidden border border-[#C5A880]/60 shadow-xs flex-shrink-0 bg-[#FAF7F2]">
+              <Image 
+                src="/logo.png" 
+                alt="ZEHRA STUDIO Logo" 
+                width={48} 
+                height={48} 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform" 
+              />
+            </div>
+            <div>
+              <span className="font-bold text-xl tracking-[0.15em] text-[#18181B] group-hover:text-[#6B1D2F] transition-colors leading-none block">
+                ZEHRA STUDIO
+              </span>
+              <span className="text-[8.5px] tracking-[0.25em] text-[#C5A880] uppercase font-bold mt-1 block">
+                LUXURY PRET &amp; COUTURE
+              </span>
+            </div>
           </Link>
           <p className="text-xs text-stone-500 leading-relaxed font-normal">
             ZEHRA STUDIO is Pakistan’s premier luxury fashion atelier offering pure silk formals, velvet couture, handmade chiffon ensembles, and ready to wear pret.

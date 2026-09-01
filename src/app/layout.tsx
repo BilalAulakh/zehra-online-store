@@ -18,6 +18,16 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: 'ZEHRA STUDIO | Pakistani Luxury Women’s Clothing Online',
   description: 'Shop premium Pakistani women’s clothing at ZEHRA STUDIO. Explore handmade stitched dresses, velvet formals, chiffon ensembles, and elegant pret collections with free delivery across Pakistan.',
+  icons: {
+    icon: [
+      { url: '/logo.png', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo.png' },
+    ],
+    shortcut: '/logo.png',
+  },
 };
 
 export default function RootLayout({

@@ -10,6 +10,9 @@ CREATE TABLE IF NOT EXISTS public.products (
   slug TEXT UNIQUE NOT NULL,
   price NUMERIC NOT NULL DEFAULT 0,
   compare_at_price NUMERIC,
+  unstitched_price NUMERIC,
+  package_includes TEXT DEFAULT '3PC (Shirt, Shalwar, Dupatta)',
+  colors TEXT[] DEFAULT '{}',
   category TEXT NOT NULL DEFAULT 'Luxury Pret',
   fabric TEXT DEFAULT '',
   images TEXT[] DEFAULT '{}',
@@ -17,10 +20,17 @@ CREATE TABLE IF NOT EXISTS public.products (
   sizes TEXT[] DEFAULT '{"XS", "S", "M", "L", "XL", "Custom"}',
   is_featured BOOLEAN DEFAULT false,
   is_new BOOLEAN DEFAULT false,
+  is_top_sale BOOLEAN DEFAULT false,
   rating NUMERIC DEFAULT 5.0,
   reviews_count INTEGER DEFAULT 1,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
+
+-- Safely add columns if table already existed without them
+ALTER TABLE public.products ADD COLUMN IF NOT EXISTS unstitched_price NUMERIC;
+ALTER TABLE public.products ADD COLUMN IF NOT EXISTS package_includes TEXT DEFAULT '3PC (Shirt, Shalwar, Dupatta)';
+ALTER TABLE public.products ADD COLUMN IF NOT EXISTS colors TEXT[] DEFAULT '{}';
+ALTER TABLE public.products ADD COLUMN IF NOT EXISTS is_top_sale BOOLEAN DEFAULT false;
 
 -- Index for high-speed search and filtering
 CREATE INDEX IF NOT EXISTS idx_products_category ON public.products(category);

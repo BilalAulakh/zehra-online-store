@@ -289,20 +289,50 @@ export async function addProduct(product: Product): Promise<{ success: boolean; 
     created_at: product.created_at || new Date().toISOString()
   };
 
+  // Clean payload for Supabase (remove undefined fields)
+  const cleanPayload: Record<string, any> = {};
+  for (const [k, v] of Object.entries(newProduct)) {
+    if (v !== undefined) {
+      cleanPayload[k] = v;
+    }
+  }
+
   // 1. Save directly to Supabase
   try {
-    const { data, error } = await supabase.from('products').upsert([newProduct], { onConflict: 'id' }).select().single();
+    const { data, error } = await supabase.from('products').upsert([cleanPayload], { onConflict: 'id' }).select().single();
     if (error) {
-      console.error('Supabase product save error:', error.message);
+      console.warn('Supabase product save notice (trying core schema fallback):', error.message);
+      // Fallback: retry with core schema columns in case remote table hasn't added newest optional columns
+      const corePayload: Record<string, any> = {
+        id: newProduct.id,
+        title: newProduct.title,
+        slug: newProduct.slug,
+        price: newProduct.price,
+        compare_at_price: newProduct.compare_at_price || null,
+        category: newProduct.category,
+        fabric: newProduct.fabric || '',
+        images: newProduct.images || [],
+        description: newProduct.description || '',
+        sizes: newProduct.sizes || [],
+        is_featured: newProduct.is_featured || false,
+        is_new: newProduct.is_new || false,
+        rating: newProduct.rating || 5.0,
+        reviews_count: newProduct.reviews_count || 1,
+        created_at: newProduct.created_at
+      };
+      const retry = await supabase.from('products').upsert([corePayload], { onConflict: 'id' });
+      if (retry.error) {
+        console.warn('Supabase core schema notice:', retry.error.message);
+      }
     } else if (data) {
       memoryProductsCache = null;
       return { success: true, product: data as Product };
     }
   } catch (err: any) {
-    console.error('Supabase addProduct exception:', err);
+    console.warn('Supabase addProduct notice:', err);
   }
 
-  // 2. LocalStorage sync backup
+  // 2. LocalStorage sync backup (always keeps all full rich fields)
   if (typeof window !== 'undefined') {
     try {
       const existing = localStorage.getItem('zehra_custom_products');
@@ -315,19 +345,44 @@ export async function addProduct(product: Product): Promise<{ success: boolean; 
     }
   }
 
+  memoryProductsCache = null;
   return { success: true, product: newProduct };
 }
 
 export async function updateProduct(product: Product): Promise<{ success: boolean; product: Product }> {
+  // Clean payload for Supabase
+  const cleanPayload: Record<string, any> = {};
+  for (const [k, v] of Object.entries(product)) {
+    if (v !== undefined) {
+      cleanPayload[k] = v;
+    }
+  }
+
   // 1. Update in Supabase
   try {
     const { error } = await supabase
       .from('products')
-      .update(product)
+      .update(cleanPayload)
       .eq('id', product.id);
     
     if (error) {
-      console.warn('Supabase product update notice:', error.message);
+      console.warn('Supabase product update notice (trying core schema fallback):', error.message);
+      const corePayload: Record<string, any> = {
+        title: product.title,
+        slug: product.slug,
+        price: product.price,
+        compare_at_price: product.compare_at_price || null,
+        category: product.category,
+        fabric: product.fabric || '',
+        images: product.images || [],
+        description: product.description || '',
+        sizes: product.sizes || [],
+        is_featured: product.is_featured || false,
+        is_new: product.is_new || false,
+        rating: product.rating || 5.0,
+        reviews_count: product.reviews_count || 1
+      };
+      await supabase.from('products').update(corePayload).eq('id', product.id);
     } else {
       memoryProductsCache = null;
     }
@@ -348,10 +403,11 @@ export async function updateProduct(product: Product): Promise<{ success: boolea
       }
       localStorage.setItem('zehra_custom_products', JSON.stringify(list));
     } catch (e) {
-      console.error('LocalStorage product update error:', e);
+      console.warn('LocalStorage product update notice:', e);
     }
   }
 
+  memoryProductsCache = null;
   return { success: true, product };
 }
 

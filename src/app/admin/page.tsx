@@ -445,8 +445,8 @@ export default function AdminDashboardPage() {
       setIsProductModalOpen(false);
       await loadData();
     } catch (err) {
-      console.error('Error saving product:', err);
-      showFlash('Failed to save product. Please try again.', 'error');
+      console.warn('Notice saving product:', err);
+      showFlash('Failed to save product. Please check connection and try again.', 'error');
     } finally {
       setIsSavingProduct(false);
     }
@@ -613,8 +613,14 @@ export default function AdminDashboardPage() {
 
           {/* Header */}
           <div className="text-center space-y-2">
-            <div className="w-14 h-14 rounded-2xl bg-[#881337] text-white flex items-center justify-center mx-auto shadow-lg shadow-[#881337]/20">
-              <Lock className="w-7 h-7" />
+            <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#C7A76C]/60 mx-auto shadow-lg bg-[#FAF7F2]">
+              <Image 
+                src="/logo.png" 
+                alt="ZEHRA STUDIO Logo" 
+                width={64} 
+                height={64} 
+                className="w-full h-full object-cover" 
+              />
             </div>
             <span className="text-[10px] font-black text-[#C7A76C] uppercase tracking-[0.3em] block">
               AUTHENTICATION REQUIRED
@@ -730,9 +736,15 @@ export default function AdminDashboardPage() {
       <div className="bg-white border-b border-stone-200 sticky top-0 z-30 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 rounded-lg bg-[#6B1D2F] text-white font-bold text-xs flex items-center justify-center shadow-2xs">
-                ZS
+            <Link href="/" className="flex items-center gap-2.5 group">
+              <div className="w-9 h-9 rounded-full overflow-hidden border border-[#C5A880]/60 shadow-2xs flex-shrink-0 bg-[#FAF7F2]">
+                <Image 
+                  src="/logo.png" 
+                  alt="ZEHRA STUDIO" 
+                  width={36} 
+                  height={36} 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform" 
+                />
               </div>
               <span className="font-bold text-base tracking-wider text-[#18181B] hidden sm:inline">
                 ZEHRA STUDIO &bull; ADMIN

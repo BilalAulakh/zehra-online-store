@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ShoppingBag, ArrowLeft, CheckCircle2, ShieldCheck, Truck, CreditCard, Check, Loader2 } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 import { createOrder } from '@/lib/supabase';
@@ -69,8 +70,14 @@ export default function CheckoutPage() {
     return (
       <div className="bg-[#FAF9F6] min-h-screen py-16 text-[#18181B]">
         <div className="max-w-2xl mx-auto px-4 text-center space-y-6">
-          <div className="w-20 h-20 bg-white text-[#881337] rounded-full flex items-center justify-center mx-auto shadow-xl border border-[#C7A76C] animate-bounce">
-            <Check className="w-10 h-10" />
+          <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#C7A76C] mx-auto shadow-xl bg-white p-1">
+            <Image 
+              src="/logo.png" 
+              alt="ZEHRA STUDIO" 
+              width={80} 
+              height={80} 
+              className="w-full h-full object-cover rounded-full" 
+            />
           </div>
           <div className="space-y-2">
             <span className="text-xs font-bold text-[#6B1D2F] uppercase tracking-[0.25em]">ORDER CONFIRMED &bull; ZEHRA STUDIO</span>
