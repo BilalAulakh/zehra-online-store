@@ -31,21 +31,21 @@ export interface Product {
   title: string;
   slug: string;
   price: number;
-  compare_at_price?: number;
-  unstitched_price?: number;
-  package_includes?: string;
-  colors?: string[];
+  compare_at_price?: number | null;
+  unstitched_price?: number | null;
+  package_includes?: string | null;
+  colors?: string[] | null;
   category: string;
   fabric: string;
   images: string[];
   description: string;
   sizes: string[];
-  is_featured?: boolean;
-  is_new?: boolean;
-  is_top_sale?: boolean;
-  rating?: number;
-  reviews_count?: number;
-  created_at?: string;
+  is_featured?: boolean | null;
+  is_new?: boolean | null;
+  is_top_sale?: boolean | null;
+  rating?: number | null;
+  reviews_count?: number | null;
+  created_at?: string | null;
 }
 
 export interface Category {
@@ -86,7 +86,7 @@ export interface Order {
 import STATIC_PRODUCTS from './products.json';
 
 // Default static fallback products matching local image files
-export const MOCK_PRODUCTS: Product[] = STATIC_PRODUCTS as Product[];
+export const MOCK_PRODUCTS: Product[] = STATIC_PRODUCTS as unknown as Product[];
 
 export const MOCK_CATEGORIES: Category[] = [
   { 
@@ -411,8 +411,38 @@ export async function updateProduct(product: Product): Promise<{ success: boolea
   return { success: true, product };
 }
 
+export async function deleteStorageImageByUrl(imageUrl: string): Promise<void> {
+  try {
+    if (!imageUrl || !imageUrl.includes('produtcs-images')) return;
+    const parts = imageUrl.split('produtcs-images/');
+    if (parts.length > 1) {
+      const storagePath = decodeURIComponent(parts[1].split('?')[0]);
+      await supabase.storage.from('produtcs-images').remove([storagePath]);
+    }
+  } catch (err) {
+    console.warn('Notice deleting storage image:', err);
+  }
+}
+
 export async function deleteProduct(idOrSlug: string): Promise<{ success: boolean }> {
-  // 1. Delete from Supabase
+  // 1. Clean up product images from Supabase Storage
+  try {
+    const { data: prod } = await supabase
+      .from('products')
+      .select('images')
+      .or(`id.eq.${idOrSlug},slug.eq.${idOrSlug}`)
+      .single();
+
+    if (prod && Array.isArray(prod.images)) {
+      for (const imgUrl of prod.images) {
+        await deleteStorageImageByUrl(imgUrl);
+      }
+    }
+  } catch (e) {
+    // Continue if image cleanup notice
+  }
+
+  // 2. Delete from Supabase
   try {
     const { error } = await supabase
       .from('products')
@@ -428,7 +458,7 @@ export async function deleteProduct(idOrSlug: string): Promise<{ success: boolea
     console.warn('Supabase deleteProduct error:', err);
   }
 
-  // 2. Delete from LocalStorage
+  // 3. Delete from LocalStorage
   if (typeof window !== 'undefined') {
     try {
       const custom = localStorage.getItem('zehra_custom_products');

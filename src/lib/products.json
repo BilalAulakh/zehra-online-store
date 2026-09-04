@@ -1,18 +1,52 @@
 [
   {
-    "id": "canbeera-anarkali",
-    "title": "Anarkali",
-    "slug": "anarkali",
+    "id": "canbeera-morgrante",
+    "title": "MORGRANTE",
+    "slug": "morgrante",
     "price": 7500,
-    "compare_at_price": 25000,
-    "category": "Luxury Pret",
+    "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
     "fabric": "Handcrafted Chiffon",
     "images": [
-      "/images/g1.webp",
-      "/images/g2.webp",
-      "/images/g3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/j1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/j2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/j3.webp"
     ],
-    "description": "DESIGN CODE: Anarkali\nPackage Includes:\n1PC MAXI\n1PC DUPPATA\nFABRIC DETAILS:\nHandcrafted with care, our MAXI set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with\nAnarkali.\n\nNOTE:",
+    "description": "DESIGN CODE: MORGRANTE\nPackage Includes:\n1PC CHOLI\n1PC LEHNGA\n1PC DUPPATA\nFABRIC DETAILS:\nMaxy onMOONLIGHT Stuff is the ultimate solution for achieving a radiant, shimmering finish on any surface. With its advanced technology, you will experience a flawless and long-lasting shine. Enjoy a 100% satisfaction guarantee as you elevate your style with ease.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
+    "sizes": [
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.8,
+    "reviews_count": 14,
+    "created_at": "2026-01-22T13:50:54+00:00"
+  },
+  {
+    "id": "canbeera-sakura",
+    "title": "Gulab Black",
+    "slug": "sakura",
+    "price": 9000,
+    "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Pure Raw Silk",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/f1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/f2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/f3.webp"
+    ],
+    "description": "DESIGN CODE:GULAB Black\nFABRIC DETAILS:\nExpertly crafted from luxurious SILKY, the Gulab black dress exudes elegance and sophistication. Handmade with intricate detailing, it drapes beautifully on the body, showcasing your curves. Perfect for formal occasions, it offers a touch of glamour and comfort. Elevate your style with this timeless and unique piece.\n\nNOTE:",
     "sizes": [
       "Unstitched",
       "Xs",
@@ -23,54 +57,29 @@
     ],
     "is_featured": true,
     "is_new": true,
-    "rating": 4.9,
-    "reviews_count": 30,
-    "created_at": "2025-11-28 09:16:29+00"
+    "is_top_sale": false,
+    "rating": 4.8,
+    "reviews_count": 27,
+    "created_at": "2026-01-01T17:57:29+00:00"
   },
   {
-    "id": "canbeera-ariya",
-    "title": "ARIYA",
-    "slug": "ariya",
-    "price": 7500,
-    "compare_at_price": 15000,
+    "id": "canbeera-sara",
+    "title": "SARA",
+    "slug": "sara",
+    "price": 7000,
+    "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Bridal & Formals",
-    "fabric": "Handcrafted Chiffon",
+    "fabric": "Pure Chiffon",
     "images": [
-      "/images/w1.webp",
-      "/images/w2.webp",
-      "/images/w3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/u1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/u2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/u3.webp"
     ],
-    "description": "ARIYA\nPackage Includes:\n1 PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nIntroducing ARIYA, the elegant sequence embroidered dress that will add a touch of sophistication to any occasion. Made with high-quality materials and exquisite attention to detail, this dress will make you stand out and feel confident in your appearance. Perfect for formal events or special occasions, ARIYA is a must-have for any fashion-forward individual seeking a timeless and glamorous look.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
+    "description": "DESIGN CODE:SARA\nPackage Includes:\n1PC SHIRT\n1PC DUPPATA\nThe SARA dress is meticulously crafted from high-quality chiffon, known for its lightweight and breathable properties. This handmade garment offers a comfortable fit while maintaining an elegant drape, ideal for formal occasions. Chiffon's delicate texture enhances aesthetic appeal, making the SARA a sophisticated choice for discerning consumers.\n<div class=\"product-block\">\n<div class=\"rte\">\n\nNOTE:\n\n</div>\n</div>",
     "sizes": [
-      "Unstitched",
-      "XS",
-      "Small",
-      "Medium",
-      "Large",
-      "XL"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.9,
-    "reviews_count": 28,
-    "created_at": "2025-08-04 13:06:28+00"
-  },
-  {
-    "id": "canbeera-athena",
-    "title": "ATHENA",
-    "slug": "athena",
-    "price": 16500,
-    "compare_at_price": 30000,
-    "category": "Luxury Pret",
-    "fabric": "Pure Raw Silk",
-    "images": [
-      "/images/n1.webp",
-      "/images/n2.webp",
-      "/images/n3.webp"
-    ],
-    "description": "<meta charset=\"UTF-8\">\nPACKAGE INCLUDE :\nDRESS CODE: ATHEMA \n1 SHIRT PC\n1 DUPPATA\n1 TROUSER\nPRODUCT DETAILS :\nCrafted with expert precision and artisanal skill, the  shirt dupatta is made from the finest silk for a luxurious and elegant feel. Handmade with care, this accessory adds a touch of sophistication to any outfit. Elevate your style with the quality and craftsmanship .\nTo order Dm/whatsapp us on 03261801203\nNOTED : it’s a custome made dress half payment will be advanced",
-    "sizes": [
-      "Unstitched",
       "Xs",
       "Small",
       "Medium",
@@ -79,51 +88,28 @@
     ],
     "is_featured": false,
     "is_new": false,
-    "rating": 4.8,
-    "reviews_count": 26,
-    "created_at": "2024-03-15 00:00:05+00"
-  },
-  {
-    "id": "canbeera-butter-yellow",
-    "title": "BUTTER YELLOW",
-    "slug": "butter-yellow",
-    "price": 7000,
-    "compare_at_price": 12000,
-    "category": "Bridal & Formals",
-    "fabric": "Handcrafted Chiffon",
-    "images": [
-      "/images/y1.webp",
-      "/images/y2.webp",
-      "/images/y3.webp"
-    ],
-    "description": "DESIGN CODE : Butter Yellow\n1PC : Shirt \n1PC : Grara \n1 PC : Dupatta\nThe Butter Yellow dress by features handcrafted fabric and a meticulously handmade dupatta, ensuring unique texture and quality. This artisanal approach enhances durability and offers a distinct, refined aesthetic suitable for formal and traditional occasions.",
-    "sizes": [
-      "XS",
-      "Small",
-      "Medium",
-      "Large",
-      "XL"
-    ],
-    "is_featured": false,
-    "is_new": false,
+    "is_top_sale": false,
     "rating": 4.7,
-    "reviews_count": 34,
-    "created_at": "2026-08-02 08:51:27+00"
+    "reviews_count": 22,
+    "created_at": "2026-02-09T13:51:12+00:00"
   },
   {
-    "id": "canbeera-design-code-dua-package-includes-1pc-shirt-1pc-sharara-1pc-duppata-fabric-details-the-selene-is-a-meticulously-crafted-handmade-dress-complemented-by-a-delicate-chiffon-dupatta-the-use-of-high-quality-materials-ensures-durability-and-comfort",
-    "title": "DUA",
-    "slug": "design-code-dua-package-includes-1pc-shirt-1pc-sharara-1pc-duppata-fabric-details-the-selene-is-a-meticulously-crafted-handmade-dress-complemented-by-a-delicate-chiffon-dupatta-the-use-of-high-quality-materials-ensures-durability-and-comfort",
+    "id": "canbeera-sehrish",
+    "title": "Sehrish",
+    "slug": "sehrish",
     "price": 9500,
     "compare_at_price": 15000,
-    "category": "Bridal & Formals",
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Ready To Wear",
     "fabric": "Pure Chiffon",
     "images": [
-      "/images/x1.webp",
-      "/images/x2.webp",
-      "/images/x3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/e1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/e2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/e3.webp"
     ],
-    "description": "DESIGN CODE: DUA\nPackage Includes:\n1PC SHIRT\n1PC SHARARA\n1PC DUPPATA\nFABRIC DETAILS:\nThe Selene is a meticulously crafted handmade dress complemented by a delicate chiffon dupatta. The use of high-quality materials ensures durability and comfort,",
+    "description": "DESIGN CODE: l Sehrish \nPackage Includes:\n1PC SHIRT\n1 PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe Sehrish  is a meticulously handmade dress complemented by a chiffon dupatta, crafted with precision to ensure durability and elegance. The use of chiffon enhances breathability, providing comfort while maintaining a refined aesthetic. This combination is suitable for various occasions, offering versatility in style. \n\nNOTE:",
     "sizes": [
       "Xs",
       "Small",
@@ -131,109 +117,30 @@
       "Large",
       "Xl"
     ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.9,
-    "reviews_count": 31,
-    "created_at": "2026-07-15 18:26:59+00"
-  },
-  {
-    "id": "canbeera-ghulaf",
-    "title": "GHULAF",
-    "slug": "ghulaf",
-    "price": 7000,
-    "compare_at_price": 12000,
-    "category": "Luxury Pret",
-    "fabric": "Pure Raw Silk",
-    "images": [
-      "/images/t1.webp",
-      "/images/t2.webp",
-      "/images/t3.webp"
-    ],
-    "description": "DRESS CODE: GHULAF\nPACKAGE INCLUDE :\n1 SHIRT PC\n1 DUPPATA\n1 TROUSER\nPRODUCT DETAILS :\nMake a statement in this beautiful, handmade  silk dress. Crafted with intricate designs, ghulaf is perfect for a traditional mehndi occasion. The luxurious fabric is lightweight and breathable, making it comfortable for all-day wear. Be the talk of the evening with ghulaf.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings\nTo order Dm/whatsapp us on 03261801203",
-    "sizes": [
-      "Unstitched",
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.9,
-    "reviews_count": 19,
-    "created_at": "2024-01-26 12:41:42+00"
-  },
-  {
-    "id": "canbeera-ice-red",
-    "title": "ICE RED",
-    "slug": "ice-red",
-    "price": 5000,
-    "compare_at_price": 8000,
-    "category": "Bridal & Formals",
-    "fabric": "Pure Organza",
-    "images": [
-      "/images/q1.webp",
-      "/images/q2.webp",
-      "/images/q3.webp"
-    ],
-    "description": "<meta charset=\"UTF-8\">\nDESIGN CODE:ICE RED\nFABRIC DETAILS:\nICE RED is a 3-piece hand-made dress crafted from Organza Dupatta fabric. The lightweight fabric ensures a comfortable and sophisticated look, perfect for any formal event. The design is classic, timeless and chic, making it an ideal dress for those wanting to make a statement.\nSETTING OUR OWN TRENDS LET'S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
-    "sizes": [
-      "Unstitched",
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
     "rating": 4.7,
-    "reviews_count": 35,
-    "created_at": "2023-10-16 22:52:46+00"
+    "reviews_count": 24,
+    "created_at": "2026-04-09T11:57:52+00:00"
   },
   {
-    "id": "canbeera-lara-1",
-    "title": "LARA",
-    "slug": "lara-1",
-    "price": 8000,
-    "compare_at_price": 14500,
-    "category": "Ready To Wear",
-    "fabric": "Pure Chiffon",
-    "images": [
-      "/images/v1.webp",
-      "/images/v2.webp",
-      "/images/v3.webp"
-    ],
-    "description": "DESIGN CODE:Lara\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe LARA is a meticulously crafted handmade dress complemented by a delicate chiffon dupatta. The use of high-quality materials ensures durability and comfort, while the intricate design enhances elegance. This combination allows for versatility in wear, making it suitable for various occasions and settings. \n\nNOTE:",
-    "sizes": [
-      "XS",
-      "Small",
-      "Medium",
-      "Large",
-      "XL"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.8,
-    "reviews_count": 25,
-    "created_at": "2026-02-12 10:20:33+00"
-  },
-  {
-    "id": "canbeera-luxe",
-    "title": "LUXE",
-    "slug": "luxe",
-    "price": 14000,
-    "compare_at_price": 25000,
-    "category": "Luxury Pret",
+    "id": "canbeera-simran",
+    "title": "Simran",
+    "slug": "simran",
+    "price": 18500,
+    "compare_at_price": 30000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
     "fabric": "Pure Raw Silk",
     "images": [
-      "/images/p1.webp",
-      "/images/p2.webp",
-      "/images/p3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/s1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/s2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/s3.webp"
     ],
-    "description": "DESIGN CODE: LUXE\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe LUXE silk dress is crafted with the finest silk for elegance and comfort. Its handmade dupatta exudes luxurious sophistication, while the flattering fit ensures the perfect look. Let yourself shine with this luxurious dress.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings\n#canbeera #official",
+    "description": "DESIGN CODE: SIMRAN\nFABRIC DETAILS:\nExpertly crafted from luxurious SILKY, the SIMRAN dress exudes elegance and sophistication. Handmade with intricate detailing, it drapes beautifully on the body, showcasing your curves. Perfect for formal occasions, it offers a touch of glamour and comfort. Elevate your style with this timeless and unique piece.\n\nNOTE:",
     "sizes": [
       "Unstitched",
       "Xs",
@@ -244,36 +151,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
-    "reviews_count": 32,
-    "created_at": "2024-09-23 18:42:08+00"
-  },
-  {
-    "id": "canbeera-maroon-1",
-    "title": "MAROON",
-    "slug": "maroon-1",
-    "price": 7000,
-    "compare_at_price": 10000,
-    "category": "Ready To Wear",
-    "fabric": "Pure Chiffon",
-    "images": [
-      "/images/r1.webp",
-      "/images/r2.webp",
-      "/images/r3.webp"
-    ],
-    "description": "<meta charset=\"UTF-8\">\nDESIGN CODE:MAROON\nPACKAGES INCLUDES\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\nFABRIC DETAIL:\nThis beautiful 3-piece chiffon ensemble is lovingly handmade with intricate details. Let the diaphanous chiffon and handmade dupatta complete your look with an elegant, romantic touch. Perfect for special occasions.\nAVAILABLE E N ALL SIZE\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings\nDm for order_ 03261801203",
-    "sizes": [
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.8,
-    "reviews_count": 13,
-    "created_at": "2023-10-30 11:03:18+00"
+    "reviews_count": 16,
+    "created_at": "2025-12-27T13:54:35+00:00"
   },
   {
     "id": "canbeera-mehrunisa",
@@ -281,12 +162,15 @@
     "slug": "mehrunisa",
     "price": 20500,
     "compare_at_price": 30000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Handcrafted Chiffon",
     "images": [
-      "/images/a1.webp",
-      "/images/a2.webp",
-      "/images/a3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/a1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/a2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/a3.webp"
     ],
     "description": "DESIGN CODE: MEHRUNISA\nPackage Includes:\n1PC CHOLI\n1PC LEHNGA\n1PC DUPPATA\nFABRIC DETAILS:\nHandcrafted with care, our Mehrunisa choli and lehnga set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with Mehrunisa.",
     "sizes": [
@@ -303,36 +187,10 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.7,
     "reviews_count": 12,
-    "created_at": "2025-08-31 19:25:52+00"
-  },
-  {
-    "id": "canbeera-morgrante",
-    "title": "MORGRANTE",
-    "slug": "morgrante",
-    "price": 7500,
-    "compare_at_price": 15000,
-    "category": "Bridal & Formals",
-    "fabric": "Handcrafted Chiffon",
-    "images": [
-      "/images/j1.webp",
-      "/images/j2.webp",
-      "/images/j3.webp"
-    ],
-    "description": "DESIGN CODE: MORGRANTE\nPackage Includes:\n1PC CHOLI\n1PC LEHNGA\n1PC DUPPATA\nFABRIC DETAILS:\nMaxy onMOONLIGHT Stuff is the ultimate solution for achieving a radiant, shimmering finish on any surface. With its advanced technology, you will experience a flawless and long-lasting shine. Enjoy a 100% satisfaction guarantee as you elevate your style with ease.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
-    "sizes": [
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": true,
-    "rating": 4.8,
-    "reviews_count": 14,
-    "created_at": "2026-01-22 13:50:54+00"
+    "created_at": "2025-08-31T19:25:52+00:00"
   },
   {
     "id": "canbeera-naz",
@@ -340,12 +198,15 @@
     "slug": "naz",
     "price": 8500,
     "compare_at_price": 14000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Raw Silk",
     "images": [
-      "/images/k1.webp",
-      "/images/k2.webp",
-      "/images/k3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/k1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/k2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/k3.webp"
     ],
     "description": "DESIGN CODE:NAZ\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe NAZ silk dress is crafted with the finest silk for elegance and comfort. Its handmade dupatta exudes luxurious sophistication, while the flattering fit ensures the perfect look. Let yourself shine with this luxurious dress.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
     "sizes": [
@@ -358,228 +219,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 17,
-    "created_at": "2024-07-03 06:15:18+00"
-  },
-  {
-    "id": "canbeera-noor-1",
-    "title": "Noor",
-    "slug": "noor-1",
-    "price": 9500,
-    "compare_at_price": 15500,
-    "category": "Luxury Pret",
-    "fabric": "Handcrafted Chiffon",
-    "images": [
-      "/images/d1.webp",
-      "/images/d2.webp",
-      "/images/d3.webp"
-    ],
-    "description": "DESIGN CODE:NOOR\nPackage Includes:\n1PC MAXI\n1PC DUPPATA\nFABRIC DETAILS:\nHandcrafted with care, our NOOR MAXI set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with NOOR.\n\nNOTE:\nTussels are subjected to change as per market availability",
-    "sizes": [
-      "XS",
-      "Small",
-      "Medium",
-      "Large",
-      "XL"
-    ],
-    "is_featured": true,
-    "is_new": true,
-    "rating": 4.9,
-    "reviews_count": 21,
-    "created_at": "2025-11-26 12:32:24+00"
-  },
-  {
-    "id": "canbeera-pista",
-    "title": "PISTA",
-    "slug": "pista",
-    "price": 6000,
-    "compare_at_price": 14500,
-    "category": "Luxury Pret",
-    "fabric": "Pure Raw Silk",
-    "images": [
-      "/images/m1.webp",
-      "/images/m2.webp",
-      "/images/m3.webp"
-    ],
-    "description": "Design code : PISTA\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA \nFABRIC DETAILS:\nExperience the luxury of KATAN silk with our handmade shirt and trouser set. Crafted with expert care, our silk shirt offers a smooth, soft feel against your skin while our trousers provide a comfortable and stylish fit. Elevate your wardrobe with this unique and high-quality set.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\n.\nTo order dm/whatsapp us on 03261801203",
-    "sizes": [
-      "Unstitched",
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.7,
-    "reviews_count": 23,
-    "created_at": "2024-03-08 15:23:16+00"
-  },
-  {
-    "id": "canbeera-sahar",
-    "title": "SAHAR",
-    "slug": "sahar",
-    "price": 8000,
-    "compare_at_price": 16000,
-    "category": "Bridal & Formals",
-    "fabric": "Handcrafted Chiffon",
-    "images": [
-      "/images/z1.webp",
-      "/images/z2.webp",
-      "/images/z3.webp"
-    ],
-    "description": "SAHAR\nPackage Includes:\n1 PC MAXY\n1PC INNER\n1PC DUPPATA\nFABRIC DETAILS:\nSAHAR is a stunning embroidered maxy with intricate sequence work. Crafted with high-quality materials, it exudes elegance and grace. Perfect for any special occasion, it will surely make you stand out in the crowd.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
-    "sizes": [
-      "XS",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.8,
-    "reviews_count": 12,
-    "created_at": "2025-04-23 14:07:32+00"
-  },
-  {
-    "id": "canbeera-sakura",
-    "title": "Gulab Black",
-    "slug": "sakura",
-    "price": 9000,
-    "compare_at_price": 15000,
-    "category": "Bridal & Formals",
-    "fabric": "Pure Raw Silk",
-    "images": [
-      "/images/f1.webp",
-      "/images/f2.webp",
-      "/images/f3.webp"
-    ],
-    "description": "DESIGN CODE:GULAB Black\nFABRIC DETAILS:\nExpertly crafted from luxurious SILKY, the Gulab black dress exudes elegance and sophistication. Handmade with intricate detailing, it drapes beautifully on the body, showcasing your curves. Perfect for formal occasions, it offers a touch of glamour and comfort. Elevate your style with this timeless and unique piece.\n\nNOTE:",
-    "sizes": [
-      "Unstitched",
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": true,
-    "is_new": true,
-    "rating": 4.8,
-    "reviews_count": 27,
-    "created_at": "2026-01-01 17:57:29+00"
-  },
-  {
-    "id": "canbeera-sara",
-    "title": "SARA",
-    "slug": "sara",
-    "price": 7000,
-    "compare_at_price": 12000,
-    "category": "Bridal & Formals",
-    "fabric": "Pure Chiffon",
-    "images": [
-      "/images/u1.webp",
-      "/images/u2.webp",
-      "/images/u3.webp"
-    ],
-    "description": "DESIGN CODE:SARA\nPackage Includes:\n1PC SHIRT\n1PC DUPPATA\nThe SARA dress is meticulously crafted from high-quality chiffon, known for its lightweight and breathable properties. This handmade garment offers a comfortable fit while maintaining an elegant drape, ideal for formal occasions. Chiffon's delicate texture enhances aesthetic appeal, making the SARA a sophisticated choice for discerning consumers.\n<div class=\"product-block\">\n<div class=\"rte\">\n\nNOTE:\n\n</div>\n</div>",
-    "sizes": [
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.7,
-    "reviews_count": 22,
-    "created_at": "2026-02-09 13:51:12+00"
-  },
-  {
-    "id": "canbeera-sehrish",
-    "title": "Sehrish",
-    "slug": "sehrish",
-    "price": 9500,
-    "compare_at_price": 15000,
-    "category": "Ready To Wear",
-    "fabric": "Pure Chiffon",
-    "images": [
-      "/images/e1.webp",
-      "/images/e2.webp",
-      "/images/e3.webp"
-    ],
-    "description": "DESIGN CODE: l Sehrish \nPackage Includes:\n1PC SHIRT\n1 PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe Sehrish  is a meticulously handmade dress complemented by a chiffon dupatta, crafted with precision to ensure durability and elegance. The use of chiffon enhances breathability, providing comfort while maintaining a refined aesthetic. This combination is suitable for various occasions, offering versatility in style. \n\nNOTE:",
-    "sizes": [
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": true,
-    "is_new": true,
-    "rating": 4.7,
-    "reviews_count": 24,
-    "created_at": "2026-04-09 11:57:52+00"
-  },
-  {
-    "id": "canbeera-selene",
-    "title": "SELENE",
-    "slug": "selene",
-    "price": 9500,
-    "compare_at_price": 15500,
-    "category": "Bridal & Formals",
-    "fabric": "Pure Chiffon",
-    "images": [
-      "/images/h1.webp",
-      "/images/h2.webp",
-      "/images/h3.webp"
-    ],
-    "description": "DESIGN CODE:SELENE\nPackage Includes:\n1PC SHIRT\n1PC SHARARA\n1PC DUPPATA\nFABRIC DETAILS:\nThe Selene is a meticulously crafted handmade dress complemented by a delicate chiffon dupatta. The use of high-quality materials ensures durability and comfort, while the intricate design enhances elegance. This combination allows for versatility in wear, making it suitable for various occasions and settings. \n\nNOTE:",
-    "sizes": [
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": true,
-    "is_new": true,
-    "rating": 4.9,
-    "reviews_count": 33,
-    "created_at": "2026-02-15 07:35:04+00"
-  },
-  {
-    "id": "canbeera-serra",
-    "title": "SERRA",
-    "slug": "serra",
-    "price": 6000,
-    "compare_at_price": 10000,
-    "category": "Luxury Pret",
-    "fabric": "Pure Raw Silk",
-    "images": [
-      "/images/l1.webp",
-      "/images/l2.webp",
-      "/images/l3.webp"
-    ],
-    "description": "<meta charset=\"UTF-8\">\nDESIGN CODE:<b> SERRA</b>\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThis 3-piece dress is meticulously crafted with natural chermouse silk, offering superior comfort and resilience. Its lightweight construction is perfect for any season, providing elegance and durability. Featuring hand-made details and enduring quality, OPAL is sure to be a timeless addition to any wardrobe.\nSETTING OUR OWN TRENDS LET'S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
-    "sizes": [
-      "Unstitched",
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": true,
-    "rating": 4.9,
-    "reviews_count": 20,
-    "created_at": "2023-10-27 20:31:34+00"
+    "created_at": "2024-07-03T06:15:18+00:00"
   },
   {
     "id": "canbeera-shimmer",
@@ -587,12 +230,15 @@
     "slug": "shimmer",
     "price": 5500,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Bridal & Formals",
     "fabric": "Handcrafted Chiffon",
     "images": [
-      "/images/i1.webp",
-      "/images/i2.webp",
-      "/images/i3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/i1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/i2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/i3.webp"
     ],
     "description": "DESIGN CODE: SHIMMER\nPackage Includes:\n1PC CHOLI\n1PC LEHNGA\n1PC DUPPATA\nFABRIC DETAILS:\nMaxy on Shimmer Stuff is the ultimate solution for achieving a radiant, shimmering finish on any surface. With its advanced technology, you will experience a flawless and long-lasting shine. Enjoy a 100% satisfaction guarantee as you elevate your style with ease.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
     "sizes": [
@@ -605,37 +251,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.7,
     "reviews_count": 36,
-    "created_at": "2024-11-16 14:55:05+00"
-  },
-  {
-    "id": "canbeera-simran",
-    "title": "Simran",
-    "slug": "simran",
-    "price": 18500,
-    "compare_at_price": 30000,
-    "category": "Bridal & Formals",
-    "fabric": "Pure Raw Silk",
-    "images": [
-      "/images/s1.webp",
-      "/images/s2.webp",
-      "/images/s3.webp"
-    ],
-    "description": "DESIGN CODE: SIMRAN\nFABRIC DETAILS:\nExpertly crafted from luxurious SILKY, the SIMRAN dress exudes elegance and sophistication. Handmade with intricate detailing, it drapes beautifully on the body, showcasing your curves. Perfect for formal occasions, it offers a touch of glamour and comfort. Elevate your style with this timeless and unique piece.\n\nNOTE:",
-    "sizes": [
-      "Unstitched",
-      "Xs",
-      "Small",
-      "Medium",
-      "Large",
-      "Xl"
-    ],
-    "is_featured": false,
-    "is_new": false,
-    "rating": 4.9,
-    "reviews_count": 16,
-    "created_at": "2025-12-27 13:54:35+00"
+    "created_at": "2024-11-16T14:55:05+00:00"
   },
   {
     "id": "canbeera-sumayyah",
@@ -643,12 +262,15 @@
     "slug": "sumayyah",
     "price": 9500,
     "compare_at_price": 15500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Bridal & Formals",
     "fabric": "Handcrafted Chiffon",
     "images": [
-      "/images/c1.webp",
-      "/images/c2.webp",
-      "/images/c3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/c1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/c2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/c3.webp"
     ],
     "description": "DESIGN CODE:SUMAYYAH\nPackage Includes:\n1PC MAXY\n1PC DUPATTA\n1 PC SHARARA\nFABRIC DETAILS:\nHandcrafted with care, our MAXI set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with Sumayyah.\n\nNOTE:",
     "sizes": [
@@ -660,9 +282,10 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 18,
-    "created_at": "2025-11-26 12:51:15+00"
+    "created_at": "2025-11-26T12:51:15+00:00"
   },
   {
     "id": "canbeera-sumayyah-1",
@@ -670,12 +293,15 @@
     "slug": "sumayyah-1",
     "price": 9500,
     "compare_at_price": 15500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Bridal & Formals",
     "fabric": "Handcrafted Chiffon",
     "images": [
-      "/images/b1.webp",
-      "/images/b2.webp",
-      "/images/b3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/b1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/b2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/b3.webp"
     ],
     "description": "DESIGN CODE: Sumayyah ||\nPackage Includes:\n1PC MAXI\n1PC DUPPATA\n1PC SHARARA\nFABRIC DETAILS:\nHandcrafted with care, our MAXI set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with sumayyah.\n\nNOTE:",
     "sizes": [
@@ -687,9 +313,138 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.8,
     "reviews_count": 15,
-    "created_at": "2025-11-26 13:03:24+00"
+    "created_at": "2025-11-26T13:03:24+00:00"
+  },
+  {
+    "id": "canbeera-anarkali",
+    "title": "Anarkali",
+    "slug": "anarkali",
+    "price": 7500,
+    "compare_at_price": 25000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Handcrafted Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/g1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/g2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/g3.webp"
+    ],
+    "description": "DESIGN CODE: Anarkali\nPackage Includes:\n1PC MAXI\n1PC DUPPATA\nFABRIC DETAILS:\nHandcrafted with care, our MAXI set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with\nAnarkali.\n\nNOTE:",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 30,
+    "created_at": "2025-11-28T09:16:29+00:00"
+  },
+  {
+    "id": "canbeera-ariya",
+    "title": "ARIYA",
+    "slug": "ariya",
+    "price": 7500,
+    "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Handcrafted Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/w1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/w2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/w3.webp"
+    ],
+    "description": "ARIYA\nPackage Includes:\n1 PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nIntroducing ARIYA, the elegant sequence embroidered dress that will add a touch of sophistication to any occasion. Made with high-quality materials and exquisite attention to detail, this dress will make you stand out and feel confident in your appearance. Perfect for formal events or special occasions, ARIYA is a must-have for any fashion-forward individual seeking a timeless and glamorous look.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
+    "sizes": [
+      "Unstitched",
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 28,
+    "created_at": "2025-08-04T13:06:28+00:00"
+  },
+  {
+    "id": "canbeera-pista",
+    "title": "PISTA",
+    "slug": "pista",
+    "price": 6000,
+    "compare_at_price": 14500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Pure Raw Silk",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/m1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/m2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/m3.webp"
+    ],
+    "description": "Design code : PISTA\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA \nFABRIC DETAILS:\nExperience the luxury of KATAN silk with our handmade shirt and trouser set. Crafted with expert care, our silk shirt offers a smooth, soft feel against your skin while our trousers provide a comfortable and stylish fit. Elevate your wardrobe with this unique and high-quality set.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\n.\nTo order dm/whatsapp us on 03261801203",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.7,
+    "reviews_count": 23,
+    "created_at": "2024-03-08T15:23:16+00:00"
+  },
+  {
+    "id": "canbeera-serra",
+    "title": "SERRA",
+    "slug": "serra",
+    "price": 6000,
+    "compare_at_price": 10000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Pure Raw Silk",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/l1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/l2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/l3.webp"
+    ],
+    "description": "<meta charset=\"UTF-8\">\nDESIGN CODE:<b> SERRA</b>\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThis 3-piece dress is meticulously crafted with natural chermouse silk, offering superior comfort and resilience. Its lightweight construction is perfect for any season, providing elegance and durability. Featuring hand-made details and enduring quality, OPAL is sure to be a timeless addition to any wardrobe.\nSETTING OUR OWN TRENDS LET'S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 20,
+    "created_at": "2023-10-27T20:31:34+00:00"
   },
   {
     "id": "canbeera-zara",
@@ -697,12 +452,15 @@
     "slug": "zara",
     "price": 6000,
     "compare_at_price": 14000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Raw Silk",
     "images": [
-      "/images/o1.webp",
-      "/images/o2.webp",
-      "/images/o3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/o1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/o2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/o3.webp"
     ],
     "description": "DESIGN CODE:ZARA\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nHandcrafted on luxurious katan silk, the ZARA dress exudes elegance and sophistication. The intricate embroidery adds a touch of glamour, making this dress perfect for any special occasion. Made with attention to detail and expert craftsmanship, it showcases the beauty and versatility of handmade clothing. \nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
     "sizes": [
@@ -715,9 +473,355 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 29,
-    "created_at": "2024-05-29 05:00:44+00"
+    "created_at": "2024-05-29T05:00:44+00:00"
+  },
+  {
+    "id": "canbeera-athena",
+    "title": "ATHENA",
+    "slug": "athena",
+    "price": 16500,
+    "compare_at_price": 30000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Pure Raw Silk",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/n1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/n2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/n3.webp"
+    ],
+    "description": "<meta charset=\"UTF-8\">\nPACKAGE INCLUDE :\nDRESS CODE: ATHEMA \n1 SHIRT PC\n1 DUPPATA\n1 TROUSER\nPRODUCT DETAILS :\nCrafted with expert precision and artisanal skill, the  shirt dupatta is made from the finest silk for a luxurious and elegant feel. Handmade with care, this accessory adds a touch of sophistication to any outfit. Elevate your style with the quality and craftsmanship .\nTo order Dm/whatsapp us on 03261801203\nNOTED : it’s a custome made dress half payment will be advanced",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.8,
+    "reviews_count": 26,
+    "created_at": "2024-03-15T00:00:05+00:00"
+  },
+  {
+    "id": "canbeera-butter-yellow",
+    "title": "BUTTER YELLOW",
+    "slug": "butter-yellow",
+    "price": 7000,
+    "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Handcrafted Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/y1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/y2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/y3.webp"
+    ],
+    "description": "DESIGN CODE : Butter Yellow\n1PC : Shirt \n1PC : Grara \n1 PC : Dupatta\nThe Butter Yellow dress by features handcrafted fabric and a meticulously handmade dupatta, ensuring unique texture and quality. This artisanal approach enhances durability and offers a distinct, refined aesthetic suitable for formal and traditional occasions.",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.7,
+    "reviews_count": 34,
+    "created_at": "2026-08-02T08:51:27+00:00"
+  },
+  {
+    "id": "canbeera-design-code-dua-package-includes-1pc-shirt-1pc-sharara-1pc-duppata-fabric-details-the-selene-is-a-meticulously-crafted-handmade-dress-complemented-by-a-delicate-chiffon-dupatta-the-use-of-high-quality-materials-ensures-durability-and-comfort",
+    "title": "DUA",
+    "slug": "design-code-dua-package-includes-1pc-shirt-1pc-sharara-1pc-duppata-fabric-details-the-selene-is-a-meticulously-crafted-handmade-dress-complemented-by-a-delicate-chiffon-dupatta-the-use-of-high-quality-materials-ensures-durability-and-comfort",
+    "price": 9500,
+    "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Pure Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/x1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/x2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/x3.webp"
+    ],
+    "description": "DESIGN CODE: DUA\nPackage Includes:\n1PC SHIRT\n1PC SHARARA\n1PC DUPPATA\nFABRIC DETAILS:\nThe Selene is a meticulously crafted handmade dress complemented by a delicate chiffon dupatta. The use of high-quality materials ensures durability and comfort,",
+    "sizes": [
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 31,
+    "created_at": "2026-07-15T18:26:59+00:00"
+  },
+  {
+    "id": "canbeera-ghulaf",
+    "title": "GHULAF",
+    "slug": "ghulaf",
+    "price": 7000,
+    "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Pure Raw Silk",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/t1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/t2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/t3.webp"
+    ],
+    "description": "DRESS CODE: GHULAF\nPACKAGE INCLUDE :\n1 SHIRT PC\n1 DUPPATA\n1 TROUSER\nPRODUCT DETAILS :\nMake a statement in this beautiful, handmade  silk dress. Crafted with intricate designs, ghulaf is perfect for a traditional mehndi occasion. The luxurious fabric is lightweight and breathable, making it comfortable for all-day wear. Be the talk of the evening with ghulaf.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings\nTo order Dm/whatsapp us on 03261801203",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 19,
+    "created_at": "2024-01-26T12:41:42+00:00"
+  },
+  {
+    "id": "canbeera-ice-red",
+    "title": "ICE RED",
+    "slug": "ice-red",
+    "price": 5000,
+    "compare_at_price": 8000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Pure Organza",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/q1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/q2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/q3.webp"
+    ],
+    "description": "<meta charset=\"UTF-8\">\nDESIGN CODE:ICE RED\nFABRIC DETAILS:\nICE RED is a 3-piece hand-made dress crafted from Organza Dupatta fabric. The lightweight fabric ensures a comfortable and sophisticated look, perfect for any formal event. The design is classic, timeless and chic, making it an ideal dress for those wanting to make a statement.\nSETTING OUR OWN TRENDS LET'S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.7,
+    "reviews_count": 35,
+    "created_at": "2023-10-16T22:52:46+00:00"
+  },
+  {
+    "id": "canbeera-lara-1",
+    "title": "LARA",
+    "slug": "lara-1",
+    "price": 8000,
+    "compare_at_price": 14500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Ready To Wear",
+    "fabric": "Pure Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/v1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/v2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/v3.webp"
+    ],
+    "description": "DESIGN CODE:Lara\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe LARA is a meticulously crafted handmade dress complemented by a delicate chiffon dupatta. The use of high-quality materials ensures durability and comfort, while the intricate design enhances elegance. This combination allows for versatility in wear, making it suitable for various occasions and settings. \n\nNOTE:",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.8,
+    "reviews_count": 25,
+    "created_at": "2026-02-12T10:20:33+00:00"
+  },
+  {
+    "id": "canbeera-luxe",
+    "title": "LUXE",
+    "slug": "luxe",
+    "price": 14000,
+    "compare_at_price": 25000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Pure Raw Silk",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/p1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/p2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/p3.webp"
+    ],
+    "description": "DESIGN CODE: LUXE\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPPATA\nFABRIC DETAILS:\nThe LUXE silk dress is crafted with the finest silk for elegance and comfort. Its handmade dupatta exudes luxurious sophistication, while the flattering fit ensures the perfect look. Let yourself shine with this luxurious dress.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings\n#canbeera #official",
+    "sizes": [
+      "Unstitched",
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 32,
+    "created_at": "2024-09-23T18:42:08+00:00"
+  },
+  {
+    "id": "canbeera-maroon-1",
+    "title": "MAROON",
+    "slug": "maroon-1",
+    "price": 7000,
+    "compare_at_price": 10000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Ready To Wear",
+    "fabric": "Pure Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/r1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/r2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/r3.webp"
+    ],
+    "description": "<meta charset=\"UTF-8\">\nDESIGN CODE:MAROON\nPACKAGES INCLUDES\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\nFABRIC DETAIL:\nThis beautiful 3-piece chiffon ensemble is lovingly handmade with intricate details. Let the diaphanous chiffon and handmade dupatta complete your look with an elegant, romantic touch. Perfect for special occasions.\nAVAILABLE E N ALL SIZE\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings\nDm for order_ 03261801203",
+    "sizes": [
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.8,
+    "reviews_count": 13,
+    "created_at": "2023-10-30T11:03:18+00:00"
+  },
+  {
+    "id": "canbeera-noor-1",
+    "title": "Noor",
+    "slug": "noor-1",
+    "price": 9500,
+    "compare_at_price": 15500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Luxury Pret",
+    "fabric": "Handcrafted Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/d1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/d2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/d3.webp"
+    ],
+    "description": "DESIGN CODE:NOOR\nPackage Includes:\n1PC MAXI\n1PC DUPPATA\nFABRIC DETAILS:\nHandcrafted with care, our NOOR MAXI set is the epitome of elegance and tradition. Each piece is skillfully made by hand, ensuring quality and attention to detail. With its classic design and intricate details, this ensemble is perfect for any special occasion. Step into the world of luxury with NOOR.\n\nNOTE:\nTussels are subjected to change as per market availability",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 21,
+    "created_at": "2025-11-26T12:32:24+00:00"
+  },
+  {
+    "id": "canbeera-sahar",
+    "title": "SAHAR",
+    "slug": "sahar",
+    "price": 8000,
+    "compare_at_price": 16000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Handcrafted Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/z1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/z2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/z3.webp"
+    ],
+    "description": "SAHAR\nPackage Includes:\n1 PC MAXY\n1PC INNER\n1PC DUPPATA\nFABRIC DETAILS:\nSAHAR is a stunning embroidered maxy with intricate sequence work. Crafted with high-quality materials, it exudes elegance and grace. Perfect for any special occasion, it will surely make you stand out in the crowd.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nNOTED:\n: Color of this outfit may slightly vary due to photographic lighting sources or your monitor settings",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": false,
+    "is_new": false,
+    "is_top_sale": false,
+    "rating": 4.8,
+    "reviews_count": 12,
+    "created_at": "2025-04-23T14:07:32+00:00"
+  },
+  {
+    "id": "canbeera-selene",
+    "title": "SELENE",
+    "slug": "selene",
+    "price": 9500,
+    "compare_at_price": 15500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
+    "category": "Bridal & Formals",
+    "fabric": "Pure Chiffon",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/h1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/h2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/catalog/h3.webp"
+    ],
+    "description": "DESIGN CODE:SELENE\nPackage Includes:\n1PC SHIRT\n1PC SHARARA\n1PC DUPPATA\nFABRIC DETAILS:\nThe Selene is a meticulously crafted handmade dress complemented by a delicate chiffon dupatta. The use of high-quality materials ensures durability and comfort, while the intricate design enhances elegance. This combination allows for versatility in wear, making it suitable for various occasions and settings. \n\nNOTE:",
+    "sizes": [
+      "Xs",
+      "Small",
+      "Medium",
+      "Large",
+      "Xl"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 33,
+    "created_at": "2026-02-15T07:35:04+00:00"
   },
   {
     "id": "prod-1788255818110",
@@ -725,12 +829,15 @@
     "slug": "mustard-yellow",
     "price": 8000,
     "compare_at_price": 9500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/mustard-yellow_1.jpg",
-      "/images/products/mustard-yellow_2.jpg",
-      "/images/products/mustard-yellow_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/mustard-yellow_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/mustard-yellow_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/mustard-yellow_3.jpg"
     ],
     "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Chiffon / Raw Silk.\nCare Instructions: Dry clean only.",
     "sizes": [
@@ -744,9 +851,10 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 09:43:38.11+00"
+    "created_at": "2026-09-01T09:43:38.11+00:00"
   },
   {
     "id": "prod-1788255948159",
@@ -754,12 +862,15 @@
     "slug": "bow-pink",
     "price": 7500,
     "compare_at_price": 10000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/bow-pink_1.jpg",
-      "/images/products/bow-pink_2.jpg",
-      "/images/products/bow-pink_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/bow-pink_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/bow-pink_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/bow-pink_3.jpg"
     ],
     "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nProduct includes:\n\n1Pc Hand Made Shirt\n1Pc Pure Tussel Silk Farshi Shalwar\n1Pc Organza Dupatta",
     "sizes": [
@@ -772,9 +883,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 09:45:48.16+00"
+    "created_at": "2026-09-01T09:45:48.16+00:00"
   },
   {
     "id": "prod-1788256165100",
@@ -782,12 +894,15 @@
     "slug": "zarish",
     "price": 12000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/zarish_1.jpg",
-      "/images/products/zarish_2.jpg",
-      "/images/products/zarish_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/zarish_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/zarish_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/zarish_3.jpg"
     ],
     "description": "Product includes:\n\n1Pc Silk Shirt\n1Pc Silk\n1Pc Organza dupatta\n\nThe Zarish silk double tone dress for Eid 2026 is meticulously handcrafted, showcasing expert craftsmanship. The use of high-quality silk ensures breathability and comfort, while the dual tones provide a sophisticated aesthetic. This dress not only enhances visual appeal but also offers durability, making it an excellent choice for special occasions.",
     "sizes": [
@@ -800,9 +915,10 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 09:49:25.1+00"
+    "created_at": "2026-09-01T09:49:25.1+00:00"
   },
   {
     "id": "prod-1788256784797",
@@ -810,12 +926,15 @@
     "slug": "bow-black",
     "price": 8500,
     "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/bow-black_1.webp",
-      "/images/products/bow-black_2.webp",
-      "/images/products/bow-black_3.webp"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/bow-black_1.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/bow-black_2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/bow-black_3.webp"
     ],
     "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nMaterial: Raw Silk\n\nProduct Description:\nClassic short shirt, effortlessly style and cuts\nPerfect outfit for festive occasions, or any event\nPaired with farshi shalwar and organza dupatta\n\nTo Order WhatsApp On: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -828,9 +947,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 09:59:44.797+00"
+    "created_at": "2026-09-01T09:59:44.797+00:00"
   },
   {
     "id": "prod-1788257823472",
@@ -838,12 +958,15 @@
     "slug": "afreen",
     "price": 12000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Sheesha Silk & Adda Work",
     "images": [
-      "/images/products/afreen_1.jpg",
-      "/images/products/afreen_2.jpg",
-      "/images/products/afreen_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/afreen_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/afreen_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/afreen_3.jpg"
     ],
     "description": "Color: Light Blue\nMaterial: Pure Sheesha Silk\n\nProduct Description\nOutfit Fabric: Pure Sheesha Silk \nDupatta: Organza\nSplit attached\n\nCrafted from pure Sheesha silk, this light blue ensemble features a graceful boat neckline adorned with delicate hand embroidery and silver stone embellishments. Subtle stud detailing on the front and embroidered fitted sleeves add refined charm. Paired with straight trousers and a sheer organza dupatta, it’s a timeless look perfect for special occasions.\n\nDisclaimers:\n1- Actual colour may vary slightly due to lighting, photography, and screen settings.\n2- Please note that Pure Sheesha Silk is a lightweight, slight-sheer fabric that may require inner lining depending on personal comfort and lighting conditions.\nTo Order WhatsApp On: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -856,9 +979,10 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:17:03.473+00"
+    "created_at": "2026-09-01T10:17:03.473+00:00"
   },
   {
     "id": "prod-1788258052650",
@@ -866,12 +990,15 @@
     "slug": "safia",
     "price": 12000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/safia_1.jpg",
-      "/images/products/safia_2.jpg",
-      "/images/products/safia_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/safia_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/safia_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/safia_3.jpg"
     ],
     "description": "Material: Pure Sheesha Silk and Organza Dupatta\nProduct Description\nSafiya is a modern brown sheesha silk ensemble with silver handwork, paired with trendy balloon pants. The look is completed with a beautifully finished organza dupatta featuring delicate silver detailing, adding an elegant touch to this festive outfit.\n\nWork Details: \nMeticulous silver hand embroidery on the shirt; the dupatta is finished with silver lace on all four sides.\n\nSilhouette: Modern short shirt paired with voluminous balloon pants and a flowing Mediun silk dupatta",
     "sizes": [
@@ -883,9 +1010,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:20:52.65+00"
+    "created_at": "2026-09-01T10:20:52.65+00:00"
   },
   {
     "id": "prod-1788258303148",
@@ -893,12 +1021,15 @@
     "slug": "roohma",
     "price": 12000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Bridal & Couture",
     "fabric": "Pure Silk & Adda Work",
     "images": [
-      "/images/products/roohma_1.jpg",
-      "/images/products/roohma_2.jpg",
-      "/images/products/roohma_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/roohma_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/roohma_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/roohma_3.jpg"
     ],
     "description": "Product Description\nClassic short shirt, effortlessly style and cuts\nPerfect outfit for festive occasions, or any event\nPaired with trouser and handwork sitaara dupatta\n\nTo Order WhatsApp On: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -910,9 +1041,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:25:03.148+00"
+    "created_at": "2026-09-01T10:25:03.148+00:00"
   },
   {
     "id": "prod-1788258477188",
@@ -920,12 +1052,15 @@
     "slug": "izzah",
     "price": 8000,
     "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Silk & Adda Work",
     "images": [
-      "/images/products/izzah_1.jpg",
-      "/images/products/izzah_2.jpg",
-      "/images/products/izzah_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/izzah_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/izzah_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/izzah_3.jpg"
     ],
     "description": "Package Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nColor: Purple\n\nProduct Description\nClassic short shirt, effortlessly style and cuts\nPerfect outfit for festive occasions, or any event\nEmbroidery on neckline and sleeves\nPaired with farshi shalwar and plain organza dupatta\n\nTo Order WhatsApp On: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -937,9 +1072,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:27:57.188+00"
+    "created_at": "2026-09-01T10:27:57.188+00:00"
   },
   {
     "id": "prod-1788258727405",
@@ -947,12 +1083,15 @@
     "slug": "meesha",
     "price": 8000,
     "compare_at_price": 12500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Silk & Adda Work",
     "images": [
-      "/images/products/meesha_1.jpg",
-      "/images/products/meesha_2.jpg",
-      "/images/products/meesha_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/meesha_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/meesha_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/meesha_3.jpg"
     ],
     "description": "Package Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Raw Silk.\nColor: Blue\n\nProduct Description\nClassic short shirt, effortlessly style and cuts\nPerfect outfit for festive occasions, or any event\nEmbroidery on neckline and sleeves\nPaired with farshi shalwar and plain organza dupatta\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -965,9 +1104,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:32:07.405+00"
+    "created_at": "2026-09-01T10:32:07.405+00:00"
   },
   {
     "id": "prod-1788259028771",
@@ -975,12 +1115,15 @@
     "slug": "dilrubaah",
     "price": 8500,
     "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Silk & Adda Work",
     "images": [
-      "/images/products/dilrubaah_1.jpg",
-      "/images/products/dilrubaah_2.jpg",
-      "/images/products/dilrubaah_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/dilrubaah_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/dilrubaah_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/dilrubaah_3.jpg"
     ],
     "description": "Package Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nColor: Maroon\n\nProduct Description\nClassic short shirt, effortlessly style and cuts\nPerfect outfit for festive occasions, or any event\nPaired with farshi shalwar and organza dupatta\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -992,9 +1135,10 @@
     ],
     "is_featured": true,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:37:08.771+00"
+    "created_at": "2026-09-01T10:37:08.771+00:00"
   },
   {
     "id": "prod-1788259415830",
@@ -1002,12 +1146,15 @@
     "slug": "baneen-shahee",
     "price": 10500,
     "compare_at_price": 16000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Raw Silk & Chiffon",
     "fabric": "Pure Chiffon & Classic Work",
     "images": [
-      "/images/products/baneen-shahee_1.jpg",
-      "/images/products/baneen-shahee_2.jpg",
-      "/images/products/baneen-shahee_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/baneen-shahee_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/baneen-shahee_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/baneen-shahee_3.jpg"
     ],
     "description": "DESIGN CODE: BANEEN_SHAHEE\n\nPackage Includes:\n1PC SHIRT\n1PC PLAZO\n1PC DUPATTA\n\nFABRIC DETAILS: CHIFFON\n\nThis exquisite chiffon dress is a canvas of intricate hand-embroidered artistry, adorned with delicate aroha, kutdana, moti, and dabka work. The elegant tassels and pearls on the sleeves add a touch of grace, while the trouser complements the refined silhouette. Paired with a chiffon dupatta, beautifully finished with lace and tassels spray of gotta sitara, this ensemble is the perfect blend of tradition and luxury.\nSETTING OUR OWN TRENDS LET’S OUR FUTURE BE STYLISH\nAVAILABLE IN ALL SIZES\nNOTED:\nColor of this outfit may slightly vary due to photographic lighting sources or your monitor settings.\nCustom made dress it takes 10% payment in advance.\n\nTo order WhatsApp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1019,9 +1166,10 @@
     ],
     "is_featured": true,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:43:35.831+00"
+    "created_at": "2026-09-01T10:43:35.831+00:00"
   },
   {
     "id": "prod-1788259920419",
@@ -1029,12 +1177,15 @@
     "slug": "blue-bling",
     "price": 12000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Luxury Silk & Organza Dupatta",
     "images": [
-      "/images/products/blue-bling_1.jpg",
-      "/images/products/blue-bling_2.jpg",
-      "/images/products/blue-bling_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/blue-bling_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/blue-bling_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/blue-bling_3.jpg"
     ],
     "description": "Package Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details:  Raw Silk.\n\nExpertly Hand crafted on luxurious silk and organza dupatta, the Blue Bling dress is a stunning addition to your wardrobe. The intricate handiwork of the fabric exudes elegance and sophistication. Elevate your style with this one-of-a-kind piece\nCare Instructions: Dry clean only.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1046,9 +1197,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:52:00.419+00"
+    "created_at": "2026-09-01T10:52:00.419+00:00"
   },
   {
     "id": "prod-1788260307075",
@@ -1056,12 +1208,15 @@
     "slug": "grey",
     "price": 6000,
     "compare_at_price": 10000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Silk & Adda Work",
     "images": [
-      "/images/products/grey_1.jpg",
-      "/images/products/grey_2.jpg",
-      "/images/products/grey_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/grey_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/grey_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/grey_3.jpg"
     ],
     "description": "Package Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nDesign code : GREY\n\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nExperience the luxury Silk with our handmade shirt and trouser set. Crafted with expert care, our silk shirt offers a smooth, soft feel against your skin while our trousers provide a comfortable and stylish fit. Elevate your wardrobe with this unique and high-quality set.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1073,9 +1228,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 10:58:27.075+00"
+    "created_at": "2026-09-01T10:58:27.075+00:00"
   },
   {
     "id": "prod-1788260545474",
@@ -1083,12 +1239,15 @@
     "slug": "ella",
     "price": 9500,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Raw Silk & Chiffon",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/ella_1.jpg",
-      "/images/products/ella_2.jpg",
-      "/images/products/ella_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/ella_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/ella_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/ella_3.jpg"
     ],
     "description": "DESIGN CODE: ELLA\n\nPackage Includes\n1PC SHIRT\n1PC SHARARA\n1PC DUPATTA\n\nFABRIC DETAILS:\nThe ELLA dress is a stunning handcrafted piece featuring intricate beaded adda work meticulously applied to luxurious pure chiffon fabric. Each bead is carefully placed by skilled artisans, creating an elegant and detailed design that catches light beautifully. The lightweight chiffon drapes gracefully, offering comfort and sophistication for special occasions, weddings, and celebrations. Perfect for those who appreciate traditional craftsmanship combined with refined elegance. A timeless addition to any wardrobe.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1100,9 +1259,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:02:25.475+00"
+    "created_at": "2026-09-01T11:02:25.475+00:00"
   },
   {
     "id": "prod-1788260683812",
@@ -1110,12 +1270,15 @@
     "slug": "black-bling",
     "price": 8000,
     "compare_at_price": 12500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Silk & Adda Work",
     "images": [
-      "/images/products/black-bling_1.jpg",
-      "/images/products/black-bling_2.jpg",
-      "/images/products/black-bling_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/black-bling_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/black-bling_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/black-bling_3.jpg"
     ],
     "description": "DESIGN CODE: BLACK_BLING\n\nPackage Includes:\n1PC SHIRT\n1PC SHARARA\n1PC DUPATTA\n\nFABRIC DETAILS:\nElevate your wardrobe with this stunning Black Bling dress, a masterpiece of traditional craftsmanship. Handcrafted on pure silk, this exquisite piece features intricate beaded adda work and the latest ghera design that captures attention at every glance. Each bead is meticulously placed to create a dazzling bling effect that radiates elegance and sophistication. Perfect for weddings, celebrations, and special occasions, this dress seamlessly blends timeless artistry with contemporary style. The pure silk fabric drapes beautifully while the detailed embellishment work ensures you stand out with grace and glamour. A true hit article that showcases authentic handmade quality and premium craftsmanship. Ideal for those who appreciate fine details and traditional elegance with a modern touch.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1127,9 +1290,10 @@
     ],
     "is_featured": true,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:04:43.812+00"
+    "created_at": "2026-09-01T11:04:43.812+00:00"
   },
   {
     "id": "prod-1788260921393",
@@ -1137,12 +1301,15 @@
     "slug": "green",
     "price": 5000,
     "compare_at_price": 7000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/green_1.jpg",
-      "/images/products/green_2.jpg",
-      "/images/products/green_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/green_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/green_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/green_3.jpg"
     ],
     "description": "Design code : GREEN\n\nPackage Includes:\n1PC SHIRT with INNER\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nExperience the luxury of Silk with our handmade shirt and trouser set. Crafted with expert care, our silk shirt offers a smooth, soft feel against your skin while our trousers provide a comfortable and stylish fit. Elevate your wardrobe with this unique and high-quality set.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1154,9 +1321,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:08:41.393+00"
+    "created_at": "2026-09-01T11:08:41.393+00:00"
   },
   {
     "id": "prod-1788261398907",
@@ -1164,12 +1332,15 @@
     "slug": "pinky",
     "price": 7000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/pinky_1.jpg",
-      "/images/products/pinky_2.jpg",
-      "/images/products/pinky_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/pinky_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/pinky_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/pinky_3.jpg"
     ],
     "description": "DESIGN CODE: PINKY\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nElegant pink dress crafted with meticulous handmade beadwork on pure silk fabric. Perfect for weddings, celebrations, and special occasions, this piece combines traditional artistry with luxurious materials. Each bead is carefully placed to create stunning detail and texture. The pure silk base ensures comfort and a graceful drape, making it an ideal choice for anyone seeking a sophisticated, statement-making garment that showcases fine craftsmanship.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1181,9 +1352,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:16:38.907+00"
+    "created_at": "2026-09-01T11:16:38.907+00:00"
   },
   {
     "id": "prod-1788261585779",
@@ -1191,12 +1363,15 @@
     "slug": "corel",
     "price": 5000,
     "compare_at_price": 8500,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/corel_1.jpg",
-      "/images/products/corel_2.jpg",
-      "/images/products/corel_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/corel_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/corel_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/corel_3.jpg"
     ],
     "description": "DESIGN CODE: COREL\n\nPackage Includes:\n1PC SHIRT\n1PC FARSHI SHALWAR\n1PC DUPATTA\n\nFABRIC DETAILS:\nCOREL is an elegant plain dress crafted from pure silk, designed for versatility across all occasions. The refined simplicity of its design makes it a timeless wardrobe essential—perfect for formal events, casual gatherings, or professional settings. The luxurious silk fabric drapes beautifully, offering comfort and a sophisticated appearance. Whether you're attending a wedding, dinner, or everyday outings, COREL delivers understated elegance with its clean lines and premium quality. A dress that transitions seamlessly from day to night, embodying grace and timeless style.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1208,9 +1383,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:19:45.779+00"
+    "created_at": "2026-09-01T11:19:45.779+00:00"
   },
   {
     "id": "prod-1788261708834",
@@ -1218,12 +1394,15 @@
     "slug": "diya",
     "price": 6000,
     "compare_at_price": 11000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/diya_1.jpg",
-      "/images/products/diya_2.jpg",
-      "/images/products/diya_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/diya_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/diya_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/diya_3.jpg"
     ],
     "description": "DESIGN CODE: DIYA\n\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nIntroducing DIYA, the elegant sequence embroidered dress that will add a touch of sophistication to any occasion. Made with high-quality materials and exquisite attention to detail, this dress will make you stand out and feel confident in your appearance. Perfect for formal events or special occasions, DIYAis a must-have for any fashion-forward individual seeking a timeless and glamorous look.\n\nTo order Whatsapp on: 0309 4329812 #zehra #studio",
     "sizes": [
@@ -1235,9 +1414,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:21:48.834+00"
+    "created_at": "2026-09-01T11:21:48.834+00:00"
   },
   {
     "id": "prod-1788262170178",
@@ -1245,12 +1425,15 @@
     "slug": "black-blossom",
     "price": 4000,
     "compare_at_price": 10000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/black-blossom_1.jpg",
-      "/images/products/black-blossom_2.jpg",
-      "/images/products/black-blossom_3.avif"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/black-blossom_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/black-blossom_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/black-blossom_3.avif"
     ],
     "description": "DESIGN CODE: BLACK_BLOSSOM\n\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nThe Black Blossom Dress combines timeless elegance with intricate Kiran work, featuring a plain black fabric complemented by a matching dupatta. This ensemble offers a refined silhouette ideal for formal occasions, showcasing expert craftsmanship that highlights subtle yet sophisticated detailing. Perfect for those seeking a classic look with a touch of artisanal artistry.",
     "sizes": [
@@ -1262,9 +1445,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:29:30.178+00"
+    "created_at": "2026-09-01T11:29:30.178+00:00"
   },
   {
     "id": "prod-1788262479865",
@@ -1272,12 +1456,15 @@
     "slug": "dark-brown",
     "price": 7000,
     "compare_at_price": 16000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Raw Silk & Chiffon",
     "fabric": "Pure Chiffon & Classic Work",
     "images": [
-      "/images/products/dark-brown_1.jpg",
-      "/images/products/dark-brown_2.jpg",
-      "/images/products/dark-brown_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/dark-brown_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/dark-brown_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/dark-brown_3.jpg"
     ],
     "description": "DESIGN CODE: DARK BROWN\n\nPackage Includes:\n1PC SHIRT\n1PC FLARED TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nElevate your festive wardrobe with this elegant dark brown 3-piece outfit, crafted from luxurious, flowy chiffon for a graceful silhouette. The straight-cut chiffon shirt is adorned with intricate hand embellishments and a beautifully embellished neckline, adding a refined touch of sparkle. It is paired with flared trousers finished with delicate lace detailing and a matching chiffon dupatta, elegantly trimmed with lace all around. Perfect for festive gatherings, Eid celebrations, dholkis, and intimate occasions, this timeless ensemble effortlessly blends sophistication with charm.",
     "sizes": [
@@ -1289,9 +1476,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:34:39.865+00"
+    "created_at": "2026-09-01T11:34:39.865+00:00"
   },
   {
     "id": "prod-1788262647858",
@@ -1299,12 +1487,15 @@
     "slug": "deep-rust",
     "price": 7000,
     "compare_at_price": 15000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/deep-rust_1.jpg",
-      "/images/products/deep-rust_2.jpg",
-      "/images/products/deep-rust_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/deep-rust_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/deep-rust_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/deep-rust_3.jpg"
     ],
     "description": "DESIGN CODE: DEEP RUST\n\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nElevate your festive wardrobe with this elegant deep rust 3-piece outfit, crafted from luxurious, flowy chiffon for a graceful silhouette. The straight-cut chiffon shirt is adorned with intricate hand embellishments and a beautifully embellished neckline, adding a refined touch of sparkle. It is paired trouser finished with delicate lace detailing and a matching chiffon dupatta, elegantly trimmed with lace all around. Perfect for festive gatherings, Eid celebrations, dholkis, and intimate occasions, this timeless ensemble effortlessly blends sophistication with charm.",
     "sizes": [
@@ -1316,9 +1507,10 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:37:27.858+00"
+    "created_at": "2026-09-01T11:37:27.858+00:00"
   },
   {
     "id": "prod-1788262913073",
@@ -1326,12 +1518,15 @@
     "slug": "raya",
     "price": 4500,
     "compare_at_price": 9000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Ready To Wear",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/raya_1.jpg",
-      "/images/products/raya_2.jpg",
-      "/images/products/raya_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/raya_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/raya_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/raya_3.jpg"
     ],
     "description": "DESIGN CODE: RAYA\n\nPackage Includes:\n1PC SHIRT\n1PC SHALWAR ( FARSHI )\n1PC DUPATTA\n\nFABRIC DETAILS:\nFor a stunning look, enhance your wardrobe with our handmade adda work paired with a farshi shalwar. Expertly crafted and designed with traditional techniques, our collection is sure to elevate your style.",
     "sizes": [
@@ -1343,9 +1538,10 @@
     ],
     "is_featured": false,
     "is_new": false,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:41:53.073+00"
+    "created_at": "2026-09-01T11:41:53.073+00:00"
   },
   {
     "id": "prod-1788263303060",
@@ -1353,12 +1549,15 @@
     "slug": "yellow-butter",
     "price": 7000,
     "compare_at_price": 12000,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [],
     "category": "Luxury Pret",
     "fabric": "Pure Chermouse Silk & Adda Work",
     "images": [
-      "/images/products/yellow-butter_1.jpg",
-      "/images/products/yellow-butter_2.jpg",
-      "/images/products/yellow-butter_3.jpg"
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/yellow-butter_1.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/yellow-butter_2.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/products/yellow-butter_3.jpg"
     ],
     "description": "Dress Code: YELLOW_BUTTER\n\nPackage Includes:\n1PC SHIRT\n1PC TROUSER\n1PC DUPATTA\n\nFABRIC DETAILS:\nThis handmade dress is crafted from high quality original chermouse silk, making it perfect for the summer season. With its lightweight and breathable material, it offers both style and comfort. Elevate your summer wardrobe with this unique and luxurious piece.",
     "sizes": [
@@ -1370,8 +1569,169 @@
     ],
     "is_featured": false,
     "is_new": true,
+    "is_top_sale": false,
     "rating": 4.9,
     "reviews_count": 12,
-    "created_at": "2026-09-01 11:48:23.06+00"
+    "created_at": "2026-09-01T11:48:23.06+00:00"
+  },
+  {
+    "id": "prod-1788513063759",
+    "title": "ch bilal",
+    "slug": "ch-bilal",
+    "price": 10500,
+    "compare_at_price": 87487,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [
+      "grayy black white"
+    ],
+    "category": "Luxury Pret",
+    "fabric": "Pure Chermouse Silk & Adda Work",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513049809_ltitpx.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513051287_pupqgf.webp"
+    ],
+    "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Chiffon / Raw Silk.\nCare Instructions: Dry clean only.",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 12,
+    "created_at": "2026-09-04T09:11:03.759+00:00"
+  },
+  {
+    "id": "prod-1788513111135",
+    "title": "rana ubaid",
+    "slug": "rana-ubaid",
+    "price": 678688,
+    "compare_at_price": 778989,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [
+      "all color available"
+    ],
+    "category": "Luxury Pret",
+    "fabric": "Pure Chermouse Silk & Adda Work",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513107373_lwjdi2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513107897_fwegc3.webp"
+    ],
+    "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Chiffon / Raw Silk.\nCare Instructions: Dry clean only.",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 12,
+    "created_at": "2026-09-04T09:11:51.135+00:00"
+  },
+  {
+    "id": "prod-1788513150329",
+    "title": "danii mughal",
+    "slug": "danii-mughal",
+    "price": 34567,
+    "compare_at_price": 3456,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [
+      "balck maroon"
+    ],
+    "category": "Luxury Pret",
+    "fabric": "Pure Chermouse Silk & Adda Work",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513145695_gst6f2.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513146676_ttemla.webp"
+    ],
+    "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Chiffon / Raw Silk.\nCare Instructions: Dry clean only.",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 12,
+    "created_at": "2026-09-04T09:12:30.329+00:00"
+  },
+  {
+    "id": "prod-1788513193181",
+    "title": "dev artist",
+    "slug": "dev-artist",
+    "price": 3456,
+    "compare_at_price": 45656,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [
+      "pink yellow"
+    ],
+    "category": "Luxury Pret",
+    "fabric": "Pure Chermouse Silk & Adda Work",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513188713_42bfxn.jpg",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513190106_pw14z2.jpg"
+    ],
+    "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Chiffon / Raw Silk.\nCare Instructions: Dry clean only.",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 12,
+    "created_at": "2026-09-04T09:13:13.181+00:00"
+  },
+  {
+    "id": "prod-1788513247623",
+    "title": "samnabad",
+    "slug": "samnabad",
+    "price": 3456,
+    "compare_at_price": 5678,
+    "unstitched_price": null,
+    "package_includes": "3PC (Shirt, Shalwar, Dupatta)",
+    "colors": [
+      "blue white"
+    ],
+    "category": "Luxury Pret",
+    "fabric": "Pure Chermouse Silk & Adda Work",
+    "images": [
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513243318_dnoqth.webp",
+      "https://ljppcdhcayvvqywthvya.supabase.co/storage/v1/object/public/produtcs-images/1788513243821_nixzx5.webp"
+    ],
+    "description": "Exquisite handcrafted formal ensemble with intricate hand embroidery and fine silk finish.\n\nPackage Includes: 1PC Shirt, 1PC Trouser/Sharara, 1PC Dupatta.\nFabric Details: Pure Chiffon / Raw Silk.\nCare Instructions: Dry clean only.",
+    "sizes": [
+      "XS",
+      "Small",
+      "Medium",
+      "Large",
+      "XL"
+    ],
+    "is_featured": true,
+    "is_new": true,
+    "is_top_sale": false,
+    "rating": 4.9,
+    "reviews_count": 12,
+    "created_at": "2026-09-04T09:14:07.624+00:00"
   }
 ]
