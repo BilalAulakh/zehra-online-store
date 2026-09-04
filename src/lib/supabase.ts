@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const DEFAULT_SUPABASE_URL = 'https://satlkkoaqocikfwkmmdu.supabase.co';
-const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhdGxra29hcW9jaWtmd2ttbWR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY5NzM1MjcsImV4cCI6MjEwMjU0OTUyN30.zSWUegpFlzISksyRN-vkTbjiUN72fjywTfDJWMl6-gc';
+const DEFAULT_SUPABASE_URL = 'https://ljppcdhcayvvqywthvya.supabase.co';
+const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqcHBjZGhjYXl2dnF5d3RodnlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1MDc5NzIsImV4cCI6MjEwNDA4Mzk3Mn0.xyltnaU4h78figDzWiqe68kba94D95PMprLu9S87Ck0';
 
 function sanitizeUrl(rawUrl?: string): string {
   if (!rawUrl) return DEFAULT_SUPABASE_URL;
@@ -649,6 +649,34 @@ export async function deleteAllOrders(): Promise<{ success: boolean }> {
 
   inMemoryOrders = [];
   return { success: true };
+}
+
+// -----------------------------------------------------------------------------
+// STORAGE API (IMAGES) - Bucket: produtcs-images (exact spelling)
+// -----------------------------------------------------------------------------
+
+export async function uploadProductImage(file: File | Blob, customName?: string): Promise<string> {
+  const fileExt = file instanceof File && file.name.includes('.') ? file.name.split('.').pop() : 'webp';
+  const cleanName = customName || `${Date.now()}_${Math.random().toString(36).substring(2, 8)}.${fileExt}`;
+  const filePath = cleanName;
+
+  const { error } = await supabase.storage
+    .from('produtcs-images')
+    .upload(filePath, file, {
+      cacheControl: '31536000',
+      upsert: true
+    });
+
+  if (error) {
+    console.error('Storage upload error to produtcs-images:', error);
+    throw error;
+  }
+
+  const { data: publicUrlData } = supabase.storage
+    .from('produtcs-images')
+    .getPublicUrl(filePath);
+
+  return publicUrlData.publicUrl;
 }
 
 // -----------------------------------------------------------------------------

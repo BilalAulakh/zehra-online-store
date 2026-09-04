@@ -13,16 +13,16 @@ import {
 import { 
   getProducts, getOrders, addProduct, updateProduct, deleteProduct, deleteAllProducts,
   updateOrderStatus, deleteOrder, deleteAllOrders, getStoredProducts, checkSupabaseHealth,
-  seedProductsToSupabase, Product, Order 
+  seedProductsToSupabase, uploadProductImage, Product, Order 
 } from '@/lib/supabase';
 import { TableSkeleton, OrderSkeleton, ShimmerBox } from '@/components/Shimmer';
 
 // Admin Official Credentials
 const ADMIN_CREDENTIALS = {
-  email: 'zehrastudio3322@gmail.com',
-  altEmail: 'admin@zehrastudio.pk',
-  password: 'zehra2026',
-  altPassword: 'admin12345',
+  email: 'admin@zehrastudio.pk',
+  altEmail: 'zehrastudio3322@gmail.com',
+  password: 'admin12345',
+  altPassword: 'zehra2026',
   pin: '7860'
 };
 
@@ -310,23 +310,33 @@ export default function AdminDashboardPage() {
     });
   };
 
-  // Handle File Upload (Auto Compressed Base64)
+  // Handle File Upload (Direct to Supabase Storage bucket: produtcs-images)
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files;
     if (!files || files.length === 0) return;
 
-    showFlash('Processing & optimizing image quality...', 'success');
+    showFlash('Uploading image(s) to Supabase Storage...', 'success');
     const fileArray = Array.from(files);
     
     for (const file of fileArray) {
       try {
-        const optimizedBase64 = await compressImage(file);
+        // Try uploading to Supabase Storage bucket (produtcs-images)
+        const storageUrl = await uploadProductImage(file);
         setProductForm(prev => ({
           ...prev,
-          images: [...prev.images, optimizedBase64]
+          images: [...prev.images, storageUrl]
         }));
-      } catch (err) {
-        console.error('Image compression error:', err);
+      } catch (storageErr) {
+        console.warn('Storage upload error, falling back to local compression:', storageErr);
+        try {
+          const optimizedBase64 = await compressImage(file);
+          setProductForm(prev => ({
+            ...prev,
+            images: [...prev.images, optimizedBase64]
+          }));
+        } catch (err) {
+          console.error('Image processing error:', err);
+        }
       }
     }
 

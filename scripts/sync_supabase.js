@@ -35,8 +35,8 @@ function loadEnv() {
 
 loadEnv();
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://satlkkoaqocikfwkmmdu.supabase.co';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhdGxra29hcW9jaWtmd2ttbWR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY5NzM1MjcsImV4cCI6MjEwMjU0OTUyN30.zSWUegpFlzISksyRN-vkTbjiUN72fjywTfDJWMl6-gc';
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://ljppcdhcayvvqywthvya.supabase.co';
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqcHBjZGhjYXl2dnF5d3RodnlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1MDc5NzIsImV4cCI6MjEwNDA4Mzk3Mn0.xyltnaU4h78figDzWiqe68kba94D95PMprLu9S87Ck0';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
